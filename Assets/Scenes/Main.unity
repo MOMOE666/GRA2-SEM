@@ -23948,6 +23948,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2751905959283293434, guid: 7913be6d58fa9fc458c5cd65bf707c04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2849665328483844040, guid: 7913be6d58fa9fc458c5cd65bf707c04, type: 3}
       propertyPath: m_TagString
       value: MainCamera

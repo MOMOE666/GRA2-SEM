@@ -17,6 +17,7 @@ public class QuestManager : MonoBehaviour
     public GameObject myPosition;
 
     private string SampleQuest = "Assets/Resources/Quests/SampleQuest.xml";
+
     void Start()
     {
         questDialog.SetActive(false);
@@ -26,6 +27,7 @@ public class QuestManager : MonoBehaviour
     private void LoadIconsFromSprites()
     {
         iconDict = new Dictionary<string, Sprite>();
+
         foreach (Sprite sprite in icons)
         {
             iconDict.Add(sprite.name, sprite);
@@ -34,23 +36,33 @@ public class QuestManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G) && Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
+        if (Input.GetKeyDown(KeyCode.G) &&
+            Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
         {
-            StartQuest(SampleQuest);
+            // pierwsze otwarcie albo kolejne linie dialogu
+            if (!questDialog.activeSelf)
+            {
+                StartQuest(SampleQuest);
+            }
+            else
+            {
+                questDialog.GetComponent<QuestDisplayComponent>().ProgressNode();
+            }
         }
     }
 
     public void StartQuest(string questFilePath)
     {
         questDialog.SetActive(true);
-        questDialog.GetComponent<QuestDisplayComponent>().Initialize(Quest.LoadQuest(questFilePath));
+        questDialog.GetComponent<QuestDisplayComponent>()
+            .Initialize(Quest.LoadQuest(questFilePath));
     }
 
     public Sprite GetIcon(string iconName)
     {
-        if (iconDict[iconName] != null)
-            return iconDict[iconName];
-        else
-            return null;
+        if (iconDict.TryGetValue(iconName, out Sprite sprite))
+            return sprite;
+
+        return null;
     }
 }

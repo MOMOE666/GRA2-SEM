@@ -2,19 +2,19 @@
 	<QuestTitle>Quest Tutorial</QuestTitle>
 	<Nodes>
 		<Node>
-			<NodeTitle>DanCS</NodeTitle>
+			<NodeTitle>Tata</NodeTitle>
 			<NodeText>mrzynieś mi ksiazke!</NodeText>
-			<NodeImage>slayer</NodeImage>
+			<NodeImage>Tata</NodeImage>
 		</Node>
 		<Node>
-			<NodeTitle>DanCS</NodeTitle>
+			<NodeTitle>Tata</NodeTitle>
 			<NodeText>Hope you enjoy the tutorial. If you found this video helpful make sure to subscribe</NodeText>
-			<NodeImage>matt</NodeImage>
+			<NodeImage>Tata</NodeImage>
 		</Node>
 		<Node>
-			<NodeTitle>DanCS</NodeTitle>
+			<NodeTitle>Tata</NodeTitle>
 			<NodeText>Also you can like the video if you enjoyed it!</NodeText>
-			<NodeImage>matt</NodeImage>
+			<NodeImage>Tata</NodeImage>
 		</Node>
 	</Nodes>
 </Quest>

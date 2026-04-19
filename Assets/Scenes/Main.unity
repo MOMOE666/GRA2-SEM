@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 13651449}
   - component: {fileID: 13651451}
   - component: {fileID: 13651450}
+  - component: {fileID: 13651452}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (11)
   m_TagString: Untagged
@@ -209,6 +210,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13651448}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &13651452
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13651448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &14315661
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +243,7 @@ GameObject:
   - component: {fileID: 14315662}
   - component: {fileID: 14315664}
   - component: {fileID: 14315663}
+  - component: {fileID: 14315665}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (26)
   m_TagString: Untagged
@@ -298,6 +322,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14315661}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &14315665
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14315661}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &20489822
 GameObject:
@@ -400,6 +446,7 @@ GameObject:
   - component: {fileID: 25457721}
   - component: {fileID: 25457723}
   - component: {fileID: 25457722}
+  - component: {fileID: 25457724}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (12)
   m_TagString: Untagged
@@ -478,6 +525,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25457720}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &25457724
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25457720}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &37672968
 PrefabInstance:
@@ -653,6 +722,7 @@ GameObject:
   - component: {fileID: 41853503}
   - component: {fileID: 41853505}
   - component: {fileID: 41853504}
+  - component: {fileID: 41853506}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (47)
   m_TagString: Untagged
@@ -731,6 +801,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41853502}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &41853506
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41853502}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &52195460
 PrefabInstance:
@@ -903,6 +995,7 @@ GameObject:
   - component: {fileID: 63510853}
   - component: {fileID: 63510855}
   - component: {fileID: 63510854}
+  - component: {fileID: 63510856}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (48)
   m_TagString: Untagged
@@ -981,6 +1074,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63510852}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &63510856
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63510852}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &65739899
 GameObject:
@@ -1339,6 +1454,7 @@ GameObject:
   - component: {fileID: 85082683}
   - component: {fileID: 85082685}
   - component: {fileID: 85082684}
+  - component: {fileID: 85082686}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (41)
   m_TagString: Untagged
@@ -1418,6 +1534,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85082682}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &85082686
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85082682}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &85834348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
@@ -1434,6 +1572,7 @@ GameObject:
   - component: {fileID: 94119315}
   - component: {fileID: 94119317}
   - component: {fileID: 94119316}
+  - component: {fileID: 94119318}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (20)
   m_TagString: Untagged
@@ -1512,6 +1651,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94119314}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &94119318
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94119314}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &98340470
 GameObject:
@@ -2327,6 +2488,7 @@ GameObject:
   - component: {fileID: 143295571}
   - component: {fileID: 143295573}
   - component: {fileID: 143295572}
+  - component: {fileID: 143295574}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (20)
   m_TagString: Untagged
@@ -2406,6 +2568,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143295570}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &143295574
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143295570}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &152116329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1154254208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &163316779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2487,6 +2676,7 @@ GameObject:
   - component: {fileID: 164290279}
   - component: {fileID: 164290281}
   - component: {fileID: 164290280}
+  - component: {fileID: 164290282}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (23)
   m_TagString: Untagged
@@ -2565,6 +2755,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164290278}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &164290282
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164290278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &166648940
 GameObject:
@@ -2667,6 +2879,7 @@ GameObject:
   - component: {fileID: 168306035}
   - component: {fileID: 168306037}
   - component: {fileID: 168306036}
+  - component: {fileID: 168306038}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (50)
   m_TagString: Untagged
@@ -2746,6 +2959,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168306034}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &168306038
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168306034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &170666999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,6 +2992,7 @@ GameObject:
   - component: {fileID: 170667000}
   - component: {fileID: 170667002}
   - component: {fileID: 170667001}
+  - component: {fileID: 170667003}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (26)
   m_TagString: Untagged
@@ -2835,6 +3071,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170666999}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &170667003
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170666999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &172021342
 PrefabInstance:
@@ -3247,6 +3505,7 @@ GameObject:
   - component: {fileID: 198677618}
   - component: {fileID: 198677620}
   - component: {fileID: 198677619}
+  - component: {fileID: 198677621}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (13)
   m_TagString: Untagged
@@ -3325,6 +3584,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198677617}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &198677621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198677617}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &204257171
 PrefabInstance:
@@ -3414,6 +3695,7 @@ GameObject:
   - component: {fileID: 223693381}
   - component: {fileID: 223693383}
   - component: {fileID: 223693382}
+  - component: {fileID: 223693384}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (7)
   m_TagString: Untagged
@@ -3493,6 +3775,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223693380}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &223693384
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223693380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &227713078
 GameObject:
   m_ObjectHideFlags: 0
@@ -3504,6 +3808,7 @@ GameObject:
   - component: {fileID: 227713079}
   - component: {fileID: 227713081}
   - component: {fileID: 227713080}
+  - component: {fileID: 227713082}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (46)
   m_TagString: Untagged
@@ -3583,6 +3888,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227713078}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &227713082
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227713078}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &230284106
 GameObject:
   m_ObjectHideFlags: 0
@@ -3594,6 +3921,7 @@ GameObject:
   - component: {fileID: 230284107}
   - component: {fileID: 230284109}
   - component: {fileID: 230284108}
+  - component: {fileID: 230284110}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (6)
   m_TagString: Untagged
@@ -3673,6 +4001,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230284106}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &230284110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230284106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &231069040
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +4034,7 @@ GameObject:
   - component: {fileID: 231069041}
   - component: {fileID: 231069043}
   - component: {fileID: 231069042}
+  - component: {fileID: 231069044}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (3)
   m_TagString: Untagged
@@ -3763,6 +4114,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231069040}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &231069044
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231069040}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &241457462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8828920913587994055, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1797787715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &241457466
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241457462}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &248087678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3840,6 +4240,7 @@ GameObject:
   - component: {fileID: 254051673}
   - component: {fileID: 254051675}
   - component: {fileID: 254051674}
+  - component: {fileID: 254051676}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (14)
   m_TagString: Untagged
@@ -3918,6 +4319,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254051672}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &254051676
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254051672}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &256627675
 PrefabInstance:
@@ -4087,6 +4510,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257964007}
   m_CullTransparentMesh: 1
+--- !u!1 &266714010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8828920913587994055, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1037448006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &266714014
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266714010}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &267678035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4235,6 +4685,7 @@ GameObject:
   - component: {fileID: 292378310}
   - component: {fileID: 292378312}
   - component: {fileID: 292378311}
+  - component: {fileID: 292378313}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (19)
   m_TagString: Untagged
@@ -4313,6 +4764,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292378309}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &292378313
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292378309}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &294695273 stripped
 GameObject:
@@ -4584,7 +5057,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1259361750}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &297353480 stripped
 Transform:
@@ -4785,6 +5261,7 @@ GameObject:
   - component: {fileID: 298293674}
   - component: {fileID: 298293676}
   - component: {fileID: 298293675}
+  - component: {fileID: 298293677}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (19)
   m_TagString: Untagged
@@ -4864,6 +5341,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298293673}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &298293677
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298293673}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &298589175
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,6 +5374,7 @@ GameObject:
   - component: {fileID: 298589176}
   - component: {fileID: 298589178}
   - component: {fileID: 298589177}
+  - component: {fileID: 298589179}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (31)
   m_TagString: Untagged
@@ -4954,6 +5454,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298589175}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &298589179
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298589175}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &314880134
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,6 +5487,7 @@ GameObject:
   - component: {fileID: 314880135}
   - component: {fileID: 314880137}
   - component: {fileID: 314880136}
+  - component: {fileID: 314880138}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (9)
   m_TagString: Untagged
@@ -5043,6 +5566,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314880134}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &314880138
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314880134}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &321995341
 PrefabInstance:
@@ -5141,6 +5686,7 @@ GameObject:
   - component: {fileID: 322800425}
   - component: {fileID: 322800427}
   - component: {fileID: 322800426}
+  - component: {fileID: 322800428}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (13)
   m_TagString: Untagged
@@ -5220,6 +5766,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322800424}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &322800428
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322800424}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &324505524
 GameObject:
   m_ObjectHideFlags: 0
@@ -5231,6 +5799,7 @@ GameObject:
   - component: {fileID: 324505525}
   - component: {fileID: 324505527}
   - component: {fileID: 324505526}
+  - component: {fileID: 324505528}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (1)
   m_TagString: Untagged
@@ -5310,6 +5879,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324505524}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &324505528
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324505524}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &330443257
 GameObject:
   m_ObjectHideFlags: 0
@@ -5321,6 +5912,7 @@ GameObject:
   - component: {fileID: 330443258}
   - component: {fileID: 330443260}
   - component: {fileID: 330443259}
+  - component: {fileID: 330443261}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (3)
   m_TagString: Untagged
@@ -5400,6 +5992,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330443257}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &330443261
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330443257}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &336589963 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8224958722443602494, guid: 8ea0dea7f5d4d5a44a855eedc585f6a8, type: 3}
@@ -5438,6 +6052,7 @@ GameObject:
   - component: {fileID: 342987848}
   - component: {fileID: 342987850}
   - component: {fileID: 342987849}
+  - component: {fileID: 342987851}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (25)
   m_TagString: Untagged
@@ -5517,6 +6132,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342987847}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &342987851
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342987847}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &345382475
 GameObject:
   m_ObjectHideFlags: 0
@@ -5528,6 +6165,7 @@ GameObject:
   - component: {fileID: 345382476}
   - component: {fileID: 345382478}
   - component: {fileID: 345382477}
+  - component: {fileID: 345382479}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (26)
   m_TagString: Untagged
@@ -5606,6 +6244,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345382475}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &345382479
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345382475}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &351867816 stripped
 Transform:
@@ -5687,7 +6347,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d39613ec732f77749968df44607a8963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1577477160}
   m_SourcePrefab: {fileID: 100100000, guid: d39613ec732f77749968df44607a8963, type: 3}
 --- !u!4 &355576023 stripped
 Transform:
@@ -5958,6 +6621,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365046443}
   m_Mesh: {fileID: -8064611356970959734, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &368486052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d39613ec732f77749968df44607a8963, type: 3}
+  m_PrefabInstance: {fileID: 403095855}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &370992395 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8224958722443602494, guid: 8ea0dea7f5d4d5a44a855eedc585f6a8, type: 3}
@@ -5996,6 +6664,7 @@ GameObject:
   - component: {fileID: 373850377}
   - component: {fileID: 373850379}
   - component: {fileID: 373850378}
+  - component: {fileID: 373850380}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (24)
   m_TagString: Untagged
@@ -6074,6 +6743,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373850376}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &373850380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373850376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &388006849
 GameObject:
@@ -6330,13 +7021,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d39613ec732f77749968df44607a8963, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 403095859}
   m_SourcePrefab: {fileID: 100100000, guid: d39613ec732f77749968df44607a8963, type: 3}
 --- !u!4 &403095856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d39613ec732f77749968df44607a8963, type: 3}
   m_PrefabInstance: {fileID: 403095855}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &403095859
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368486052}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4493585093827132993, guid: d39613ec732f77749968df44607a8963, type: 3}
 --- !u!1 &406623963
 GameObject:
   m_ObjectHideFlags: 0
@@ -6348,6 +7064,7 @@ GameObject:
   - component: {fileID: 406623964}
   - component: {fileID: 406623966}
   - component: {fileID: 406623965}
+  - component: {fileID: 406623967}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (11)
   m_TagString: Untagged
@@ -6427,6 +7144,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406623963}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &406623967
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406623963}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &409631267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1071367617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &409631271
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409631267}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &424522712
 GameObject:
   m_ObjectHideFlags: 0
@@ -6476,6 +7242,7 @@ GameObject:
   - component: {fileID: 425230459}
   - component: {fileID: 425230461}
   - component: {fileID: 425230460}
+  - component: {fileID: 425230462}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (21)
   m_TagString: Untagged
@@ -6554,6 +7321,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425230458}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &425230462
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425230458}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &429977102
 GameObject:
@@ -6656,6 +7445,7 @@ GameObject:
   - component: {fileID: 430998020}
   - component: {fileID: 430998022}
   - component: {fileID: 430998021}
+  - component: {fileID: 430998023}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (37)
   m_TagString: Untagged
@@ -6735,6 +7525,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430998019}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &430998023
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430998019}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &435474504 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1beb030f30009e24d847e9dd02ec298b, type: 3}
@@ -6778,6 +7590,7 @@ GameObject:
   - component: {fileID: 443139528}
   - component: {fileID: 443139530}
   - component: {fileID: 443139529}
+  - component: {fileID: 443139531}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (18)
   m_TagString: Untagged
@@ -6857,6 +7670,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443139527}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &443139531
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443139527}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &444374870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6930,6 +7765,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ccb944e8a37a2440a4539e4694e6ab9, type: 3}
+--- !u!1 &448400083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 469109583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &450575137
 GameObject:
   m_ObjectHideFlags: 0
@@ -6941,6 +7781,7 @@ GameObject:
   - component: {fileID: 450575138}
   - component: {fileID: 450575140}
   - component: {fileID: 450575139}
+  - component: {fileID: 450575141}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (12)
   m_TagString: Untagged
@@ -7019,6 +7860,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450575137}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &450575141
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450575137}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &455825310 stripped
 GameObject:
@@ -7418,6 +8281,7 @@ GameObject:
   - component: {fileID: 461827072}
   - component: {fileID: 461827074}
   - component: {fileID: 461827073}
+  - component: {fileID: 461827075}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (16)
   m_TagString: Untagged
@@ -7497,6 +8361,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461827071}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &461827075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461827071}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &462383426
 GameObject:
   m_ObjectHideFlags: 0
@@ -7508,6 +8394,7 @@ GameObject:
   - component: {fileID: 462383427}
   - component: {fileID: 462383429}
   - component: {fileID: 462383428}
+  - component: {fileID: 462383430}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (7)
   m_TagString: Untagged
@@ -7586,6 +8473,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462383426}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &462383430
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462383426}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &465703878
 GameObject:
@@ -7852,13 +8761,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 469109585}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &469109584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 469109583}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &469109585
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448400083}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &475745792
 GameObject:
   m_ObjectHideFlags: 0
@@ -7870,6 +8804,7 @@ GameObject:
   - component: {fileID: 475745793}
   - component: {fileID: 475745795}
   - component: {fileID: 475745794}
+  - component: {fileID: 475745796}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (22)
   m_TagString: Untagged
@@ -7949,6 +8884,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475745792}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &475745796
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475745792}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &478770320 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2831034300456157374, guid: 8ea0dea7f5d4d5a44a855eedc585f6a8, type: 3}
@@ -7987,6 +8944,7 @@ GameObject:
   - component: {fileID: 482344157}
   - component: {fileID: 482344159}
   - component: {fileID: 482344158}
+  - component: {fileID: 482344160}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (22)
   m_TagString: Untagged
@@ -8066,6 +9024,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482344156}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &482344160
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482344156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &488386482
 GameObject:
   m_ObjectHideFlags: 0
@@ -8077,6 +9057,7 @@ GameObject:
   - component: {fileID: 488386483}
   - component: {fileID: 488386485}
   - component: {fileID: 488386484}
+  - component: {fileID: 488386486}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (20)
   m_TagString: Untagged
@@ -8156,6 +9137,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488386482}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &488386486
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488386482}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &492775981 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa94c9fbb95b4c34c9b8c593cb12c825, type: 3}
@@ -8198,6 +9201,7 @@ GameObject:
   - component: {fileID: 500545256}
   - component: {fileID: 500545258}
   - component: {fileID: 500545257}
+  - component: {fileID: 500545259}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (23)
   m_TagString: Untagged
@@ -8277,6 +9281,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500545255}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &500545259
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500545255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &511389962
 GameObject:
   m_ObjectHideFlags: 0
@@ -8288,6 +9314,7 @@ GameObject:
   - component: {fileID: 511389963}
   - component: {fileID: 511389965}
   - component: {fileID: 511389964}
+  - component: {fileID: 511389966}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (25)
   m_TagString: Untagged
@@ -8367,6 +9394,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511389962}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &511389966
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511389962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &526568057
 GameObject:
   m_ObjectHideFlags: 0
@@ -8378,6 +9427,7 @@ GameObject:
   - component: {fileID: 526568058}
   - component: {fileID: 526568060}
   - component: {fileID: 526568059}
+  - component: {fileID: 526568061}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (27)
   m_TagString: Untagged
@@ -8457,6 +9507,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526568057}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &526568061
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526568057}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &536467666
 GameObject:
   m_ObjectHideFlags: 0
@@ -8468,6 +9540,7 @@ GameObject:
   - component: {fileID: 536467667}
   - component: {fileID: 536467669}
   - component: {fileID: 536467668}
+  - component: {fileID: 536467670}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (52)
   m_TagString: Untagged
@@ -8546,6 +9619,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536467666}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &536467670
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536467666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &562234891
 PrefabInstance:
@@ -8894,6 +9989,7 @@ GameObject:
   - component: {fileID: 580985913}
   - component: {fileID: 580985915}
   - component: {fileID: 580985914}
+  - component: {fileID: 580985916}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (34)
   m_TagString: Untagged
@@ -8972,6 +10068,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580985912}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &580985916
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580985912}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &587791970
 PrefabInstance:
@@ -9234,6 +10352,7 @@ GameObject:
   - component: {fileID: 621365165}
   - component: {fileID: 621365167}
   - component: {fileID: 621365166}
+  - component: {fileID: 621365168}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (10)
   m_TagString: Untagged
@@ -9313,6 +10432,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621365164}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &621365168
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621365164}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &623745197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa94c9fbb95b4c34c9b8c593cb12c825, type: 3}
@@ -9329,6 +10470,7 @@ GameObject:
   - component: {fileID: 629374227}
   - component: {fileID: 629374229}
   - component: {fileID: 629374228}
+  - component: {fileID: 629374230}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (22)
   m_TagString: Untagged
@@ -9407,6 +10549,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629374226}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &629374230
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629374226}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &633227868
 PrefabInstance:
@@ -9503,6 +10667,7 @@ GameObject:
   - component: {fileID: 633559210}
   - component: {fileID: 633559212}
   - component: {fileID: 633559211}
+  - component: {fileID: 633559213}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (12)
   m_TagString: Untagged
@@ -9581,6 +10746,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633559209}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &633559213
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633559209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &635638155
 GameObject:
@@ -9668,6 +10855,7 @@ GameObject:
   - component: {fileID: 637687874}
   - component: {fileID: 637687876}
   - component: {fileID: 637687875}
+  - component: {fileID: 637687877}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (8)
   m_TagString: Untagged
@@ -9747,6 +10935,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637687873}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &637687877
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637687873}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &644431529 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa94c9fbb95b4c34c9b8c593cb12c825, type: 3}
@@ -9816,6 +11026,7 @@ GameObject:
   - component: {fileID: 650051919}
   - component: {fileID: 650051921}
   - component: {fileID: 650051920}
+  - component: {fileID: 650051922}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (14)
   m_TagString: Untagged
@@ -9895,6 +11106,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650051918}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &650051922
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650051918}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &650759397
 GameObject:
   m_ObjectHideFlags: 0
@@ -9906,6 +11139,7 @@ GameObject:
   - component: {fileID: 650759398}
   - component: {fileID: 650759400}
   - component: {fileID: 650759399}
+  - component: {fileID: 650759401}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (10)
   m_TagString: Untagged
@@ -9985,6 +11219,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650759397}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &650759401
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650759397}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &659163404 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2831034300456157374, guid: 8ea0dea7f5d4d5a44a855eedc585f6a8, type: 3}
@@ -10028,6 +11284,7 @@ GameObject:
   - component: {fileID: 666786705}
   - component: {fileID: 666786707}
   - component: {fileID: 666786706}
+  - component: {fileID: 666786708}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (38)
   m_TagString: Untagged
@@ -10106,6 +11363,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666786704}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &666786708
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666786704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &669520245
 PrefabInstance:
@@ -10544,6 +11823,7 @@ GameObject:
   - component: {fileID: 700707184}
   - component: {fileID: 700707186}
   - component: {fileID: 700707185}
+  - component: {fileID: 700707187}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (19)
   m_TagString: Untagged
@@ -10622,6 +11902,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700707183}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &700707187
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700707183}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &704969694
 PrefabInstance:
@@ -10704,6 +12006,7 @@ GameObject:
   - component: {fileID: 711867556}
   - component: {fileID: 711867558}
   - component: {fileID: 711867557}
+  - component: {fileID: 711867559}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (6)
   m_TagString: Untagged
@@ -10783,6 +12086,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711867555}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &711867559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711867555}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &720108265
 GameObject:
   m_ObjectHideFlags: 0
@@ -10794,6 +12119,7 @@ GameObject:
   - component: {fileID: 720108266}
   - component: {fileID: 720108268}
   - component: {fileID: 720108267}
+  - component: {fileID: 720108269}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (21)
   m_TagString: Untagged
@@ -10872,6 +12198,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720108265}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &720108269
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720108265}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &721313487 stripped
 GameObject:
@@ -10996,6 +12344,7 @@ GameObject:
   - component: {fileID: 722886411}
   - component: {fileID: 722886413}
   - component: {fileID: 722886412}
+  - component: {fileID: 722886414}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (5)
   m_TagString: Untagged
@@ -11074,6 +12423,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722886410}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &722886414
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722886410}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &734530726
 GameObject:
@@ -11677,6 +13048,7 @@ GameObject:
   - component: {fileID: 804487381}
   - component: {fileID: 804487383}
   - component: {fileID: 804487382}
+  - component: {fileID: 804487384}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (13)
   m_TagString: Untagged
@@ -11755,6 +13127,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804487380}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &804487384
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804487380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &805140016
 PrefabInstance:
@@ -11851,6 +13245,7 @@ GameObject:
   - component: {fileID: 805922737}
   - component: {fileID: 805922739}
   - component: {fileID: 805922738}
+  - component: {fileID: 805922740}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (23)
   m_TagString: Untagged
@@ -11929,6 +13324,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805922736}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &805922740
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805922736}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &806381824
 PrefabInstance:
@@ -12088,6 +13505,7 @@ GameObject:
   - component: {fileID: 814497841}
   - component: {fileID: 814497843}
   - component: {fileID: 814497842}
+  - component: {fileID: 814497844}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (33)
   m_TagString: Untagged
@@ -12167,6 +13585,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814497840}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &814497844
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814497840}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &816815407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12232,6 +13672,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 816815407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &821665690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1647248224}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &822025693
 PrefabInstance:
@@ -12474,7 +13919,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1390895662}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &828350779 stripped
 Transform:
@@ -12796,6 +14244,7 @@ GameObject:
   - component: {fileID: 893701783}
   - component: {fileID: 893701785}
   - component: {fileID: 893701784}
+  - component: {fileID: 893701786}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (3)
   m_TagString: Untagged
@@ -12874,6 +14323,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893701782}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &893701786
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893701782}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &912249233
 GameObject:
@@ -13402,6 +14873,7 @@ GameObject:
   - component: {fileID: 946066998}
   - component: {fileID: 946067000}
   - component: {fileID: 946066999}
+  - component: {fileID: 946067001}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (2)
   m_TagString: Untagged
@@ -13481,6 +14953,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946066997}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &946067001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946066997}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &948936334
 GameObject:
   m_ObjectHideFlags: 0
@@ -13492,6 +14986,7 @@ GameObject:
   - component: {fileID: 948936335}
   - component: {fileID: 948936337}
   - component: {fileID: 948936336}
+  - component: {fileID: 948936338}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (1)
   m_TagString: Untagged
@@ -13570,6 +15065,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948936334}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &948936338
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948936334}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &951941520 stripped
 Transform:
@@ -13675,6 +15192,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 957469071}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &960238975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8828920913587994055, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1071367617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &960238979
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960238975}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &961509924
 GameObject:
   m_ObjectHideFlags: 0
@@ -13686,6 +15230,7 @@ GameObject:
   - component: {fileID: 961509925}
   - component: {fileID: 961509927}
   - component: {fileID: 961509926}
+  - component: {fileID: 961509928}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (32)
   m_TagString: Untagged
@@ -13765,6 +15310,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961509924}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &961509928
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961509924}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &976145414
 GameObject:
   m_ObjectHideFlags: 0
@@ -13776,6 +15343,7 @@ GameObject:
   - component: {fileID: 976145415}
   - component: {fileID: 976145417}
   - component: {fileID: 976145416}
+  - component: {fileID: 976145418}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (27)
   m_TagString: Untagged
@@ -13855,6 +15423,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976145414}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &976145418
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976145414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &979584190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13914,7 +15504,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2112651339}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &979584191 stripped
 Transform:
@@ -14035,6 +15628,7 @@ GameObject:
   - component: {fileID: 984897844}
   - component: {fileID: 984897846}
   - component: {fileID: 984897845}
+  - component: {fileID: 984897847}
   m_Layer: 0
   m_Name: sciana_luk_mieszkanie (1)
   m_TagString: Untagged
@@ -14114,6 +15708,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984897843}
   m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &984897847
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984897843}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &985334864
 GameObject:
   m_ObjectHideFlags: 0
@@ -14125,6 +15741,7 @@ GameObject:
   - component: {fileID: 985334865}
   - component: {fileID: 985334867}
   - component: {fileID: 985334866}
+  - component: {fileID: 985334868}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (6)
   m_TagString: Untagged
@@ -14204,6 +15821,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985334864}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &985334868
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985334864}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &993810626
 GameObject:
   m_ObjectHideFlags: 0
@@ -14215,6 +15854,7 @@ GameObject:
   - component: {fileID: 993810627}
   - component: {fileID: 993810629}
   - component: {fileID: 993810628}
+  - component: {fileID: 993810630}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (35)
   m_TagString: Untagged
@@ -14294,6 +15934,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993810626}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &993810630
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993810626}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1013073696
 GameObject:
   m_ObjectHideFlags: 0
@@ -14305,6 +15967,7 @@ GameObject:
   - component: {fileID: 1013073697}
   - component: {fileID: 1013073699}
   - component: {fileID: 1013073698}
+  - component: {fileID: 1013073700}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (16)
   m_TagString: Untagged
@@ -14383,6 +16046,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013073696}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1013073700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013073696}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1014535825
 GameObject:
@@ -14751,6 +16436,7 @@ GameObject:
   - component: {fileID: 1031127981}
   - component: {fileID: 1031127983}
   - component: {fileID: 1031127982}
+  - component: {fileID: 1031127984}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (16)
   m_TagString: Untagged
@@ -14829,6 +16515,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031127980}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1031127984
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031127980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1037448006
 PrefabInstance:
@@ -15168,6 +16876,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1037448008}
+    - targetCorrespondingSourceObject: {fileID: -8828920913587994055, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 266714014}
+    - targetCorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1706693119}
+    - targetCorrespondingSourceObject: {fileID: 8339197587434449236, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1873330547}
   m_SourcePrefab: {fileID: 100100000, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1037448007 stripped
 Transform:
@@ -15389,6 +17106,7 @@ GameObject:
   - component: {fileID: 1043848961}
   - component: {fileID: 1043848963}
   - component: {fileID: 1043848962}
+  - component: {fileID: 1043848964}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (1)
   m_TagString: Untagged
@@ -15468,6 +17186,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043848960}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1043848964
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043848960}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1056772813
 GameObject:
   m_ObjectHideFlags: 0
@@ -15479,6 +17219,7 @@ GameObject:
   - component: {fileID: 1056772814}
   - component: {fileID: 1056772816}
   - component: {fileID: 1056772815}
+  - component: {fileID: 1056772817}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (36)
   m_TagString: Untagged
@@ -15557,6 +17298,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056772813}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1056772817
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056772813}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1061878168
 PrefabInstance:
@@ -16224,7 +17987,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1140520123}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8828920913587994055, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 960238979}
+    - targetCorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 409631271}
   m_SourcePrefab: {fileID: 100100000, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1071367618 stripped
 Transform:
@@ -16242,6 +18011,7 @@ GameObject:
   - component: {fileID: 1072566681}
   - component: {fileID: 1072566683}
   - component: {fileID: 1072566682}
+  - component: {fileID: 1072566684}
   m_Layer: 0
   m_Name: sciana_okno_mieszkanie (1)
   m_TagString: Untagged
@@ -16320,6 +18090,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072566680}
+  m_Mesh: {fileID: -3678270924443542051, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1072566684
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072566680}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3678270924443542051, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1075235999
 GameObject:
@@ -16470,7 +18262,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1405961091}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1075632947 stripped
 Transform:
@@ -16583,6 +18378,7 @@ GameObject:
   - component: {fileID: 1081681539}
   - component: {fileID: 1081681541}
   - component: {fileID: 1081681540}
+  - component: {fileID: 1081681542}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (21)
   m_TagString: Untagged
@@ -16662,6 +18458,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081681538}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1081681542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081681538}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1084390996
 GameObject:
   m_ObjectHideFlags: 0
@@ -16673,6 +18491,7 @@ GameObject:
   - component: {fileID: 1084390997}
   - component: {fileID: 1084390999}
   - component: {fileID: 1084390998}
+  - component: {fileID: 1084391000}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (44)
   m_TagString: Untagged
@@ -16751,6 +18570,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084390996}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1084391000
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084390996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1087799018
 GameObject:
@@ -16875,6 +18716,7 @@ GameObject:
   - component: {fileID: 1088434302}
   - component: {fileID: 1088434304}
   - component: {fileID: 1088434303}
+  - component: {fileID: 1088434305}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (17)
   m_TagString: Untagged
@@ -16954,6 +18796,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088434301}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1088434305
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088434301}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1098375050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17013,7 +18877,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2008675475}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1098375051 stripped
 Transform:
@@ -17611,6 +19478,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137316095}
   m_Mesh: {fileID: -8064611356970959734, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &1138652420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8339197587434449236, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1761119061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1138652424
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138652420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3678270924443542051, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1139811031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17979,13 +19873,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1154254210}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1154254209 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 1154254208}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1154254210
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152116329}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1001 &1155956724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18067,6 +19986,7 @@ GameObject:
   - component: {fileID: 1157192971}
   - component: {fileID: 1157192973}
   - component: {fileID: 1157192972}
+  - component: {fileID: 1157192974}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (9)
   m_TagString: Untagged
@@ -18146,6 +20066,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157192970}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1157192974
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157192970}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1157246887
 GameObject:
   m_ObjectHideFlags: 0
@@ -18157,6 +20099,7 @@ GameObject:
   - component: {fileID: 1157246888}
   - component: {fileID: 1157246890}
   - component: {fileID: 1157246889}
+  - component: {fileID: 1157246891}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (4)
   m_TagString: Untagged
@@ -18236,6 +20179,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157246887}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1157246891
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157246887}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1158006144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18311,7 +20276,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ba051b131ba90cd4c901b7c8353ec5f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1278791307}
   m_SourcePrefab: {fileID: 100100000, guid: ba051b131ba90cd4c901b7c8353ec5f8, type: 3}
 --- !u!4 &1158006145 stripped
 Transform:
@@ -18419,6 +20387,7 @@ GameObject:
   - component: {fileID: 1163763882}
   - component: {fileID: 1163763884}
   - component: {fileID: 1163763883}
+  - component: {fileID: 1163763885}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (25)
   m_TagString: Untagged
@@ -18498,6 +20467,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163763881}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1163763885
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163763881}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1163897224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9079863731279567025, guid: 22dcb54cba4b16b46a16f8c6908cd52b, type: 3}
@@ -18514,6 +20505,7 @@ GameObject:
   - component: {fileID: 1172830152}
   - component: {fileID: 1172830154}
   - component: {fileID: 1172830153}
+  - component: {fileID: 1172830155}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (5)
   m_TagString: Untagged
@@ -18593,6 +20585,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172830151}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1172830155
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172830151}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1172966846
 GameObject:
   m_ObjectHideFlags: 0
@@ -18604,6 +20618,7 @@ GameObject:
   - component: {fileID: 1172966847}
   - component: {fileID: 1172966849}
   - component: {fileID: 1172966848}
+  - component: {fileID: 1172966850}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (17)
   m_TagString: Untagged
@@ -18682,6 +20697,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172966846}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1172966850
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172966846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1177545395
 PrefabInstance:
@@ -18891,6 +20928,7 @@ GameObject:
   - component: {fileID: 1191098384}
   - component: {fileID: 1191098386}
   - component: {fileID: 1191098385}
+  - component: {fileID: 1191098387}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (2)
   m_TagString: Untagged
@@ -18969,6 +21007,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191098383}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1191098387
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191098383}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1193319091
 PrefabInstance:
@@ -19190,6 +21250,11 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1207949620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1790742715}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1208455488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19274,6 +21339,7 @@ GameObject:
   - component: {fileID: 1215600370}
   - component: {fileID: 1215600372}
   - component: {fileID: 1215600371}
+  - component: {fileID: 1215600373}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (24)
   m_TagString: Untagged
@@ -19352,6 +21418,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215600369}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1215600373
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215600369}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1222222022
 GameObject:
@@ -19454,6 +21542,7 @@ GameObject:
   - component: {fileID: 1226695081}
   - component: {fileID: 1226695083}
   - component: {fileID: 1226695082}
+  - component: {fileID: 1226695084}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (8)
   m_TagString: Untagged
@@ -19532,6 +21621,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226695080}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1226695084
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226695080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1228820887
 GameObject:
@@ -19634,6 +21745,7 @@ GameObject:
   - component: {fileID: 1229993924}
   - component: {fileID: 1229993926}
   - component: {fileID: 1229993925}
+  - component: {fileID: 1229993927}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (15)
   m_TagString: Untagged
@@ -19712,6 +21824,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229993923}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1229993927
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229993923}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1231725454
 GameObject:
@@ -19840,6 +21974,33 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1234743161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1761119061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1234743165
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234743161}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1235800089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19899,7 +22060,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2053105605}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1235800090 stripped
 Transform:
@@ -19987,6 +22151,7 @@ GameObject:
   - component: {fileID: 1254150011}
   - component: {fileID: 1254150013}
   - component: {fileID: 1254150012}
+  - component: {fileID: 1254150014}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (3)
   m_TagString: Untagged
@@ -20065,6 +22230,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254150010}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1254150014
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254150010}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1257356582
 GameObject:
@@ -20156,6 +22343,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257356582}
   m_Mesh: {fileID: -8064611356970959734, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &1259361749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 297353479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1259361750
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259361749}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &1259794703
 GameObject:
   m_ObjectHideFlags: 0
@@ -20167,6 +22381,7 @@ GameObject:
   - component: {fileID: 1259794704}
   - component: {fileID: 1259794706}
   - component: {fileID: 1259794705}
+  - component: {fileID: 1259794707}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (1)
   m_TagString: Untagged
@@ -20245,6 +22460,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259794703}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1259794707
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259794703}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1263510016
 PrefabInstance:
@@ -20468,6 +22705,7 @@ GameObject:
   - component: {fileID: 1269473175}
   - component: {fileID: 1269473177}
   - component: {fileID: 1269473176}
+  - component: {fileID: 1269473178}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (30)
   m_TagString: Untagged
@@ -20546,6 +22784,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269473174}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1269473178
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269473174}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1275271284
 GameObject:
@@ -20688,6 +22948,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 1276009391}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1278791304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ba051b131ba90cd4c901b7c8353ec5f8, type: 3}
+  m_PrefabInstance: {fileID: 1158006144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1278791307
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278791304}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: ba051b131ba90cd4c901b7c8353ec5f8, type: 3}
 --- !u!1 &1280744016
 GameObject:
   m_ObjectHideFlags: 0
@@ -21131,6 +23418,7 @@ GameObject:
   - component: {fileID: 1316674867}
   - component: {fileID: 1316674869}
   - component: {fileID: 1316674868}
+  - component: {fileID: 1316674870}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (45)
   m_TagString: Untagged
@@ -21210,6 +23498,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316674866}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1316674870
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316674866}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1319871252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21269,7 +23579,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1782714760}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1319871253 stripped
 Transform:
@@ -21711,6 +24024,7 @@ GameObject:
   - component: {fileID: 1336983601}
   - component: {fileID: 1336983603}
   - component: {fileID: 1336983602}
+  - component: {fileID: 1336983604}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (13)
   m_TagString: Untagged
@@ -21789,6 +24103,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336983600}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1336983604
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336983600}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1353717134
 GameObject:
@@ -22082,6 +24418,7 @@ GameObject:
   - component: {fileID: 1373048360}
   - component: {fileID: 1373048362}
   - component: {fileID: 1373048361}
+  - component: {fileID: 1373048363}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (24)
   m_TagString: Untagged
@@ -22160,6 +24497,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373048359}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1373048363
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373048359}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1376509002
 PrefabInstance:
@@ -22314,6 +24673,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 1376953949}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1390895661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 828350778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1390895662
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390895661}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &1400228634
 GameObject:
   m_ObjectHideFlags: 0
@@ -22426,6 +24812,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1405961090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1075632946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1405961091
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405961090}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &1406907703
 GameObject:
   m_ObjectHideFlags: 0
@@ -22568,6 +24981,7 @@ GameObject:
   - component: {fileID: 1411671428}
   - component: {fileID: 1411671430}
   - component: {fileID: 1411671429}
+  - component: {fileID: 1411671431}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (21)
   m_TagString: Untagged
@@ -22647,6 +25061,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411671427}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1411671431
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411671427}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1431051231 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9079863731279567025, guid: 22dcb54cba4b16b46a16f8c6908cd52b, type: 3}
@@ -22663,6 +25099,7 @@ GameObject:
   - component: {fileID: 1433120318}
   - component: {fileID: 1433120320}
   - component: {fileID: 1433120319}
+  - component: {fileID: 1433120321}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (20)
   m_TagString: Untagged
@@ -22742,6 +25179,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433120317}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1433120321
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433120317}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1437585435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2831034300456157374, guid: 8ea0dea7f5d4d5a44a855eedc585f6a8, type: 3}
@@ -22780,6 +25239,7 @@ GameObject:
   - component: {fileID: 1437652249}
   - component: {fileID: 1437652251}
   - component: {fileID: 1437652250}
+  - component: {fileID: 1437652252}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (14)
   m_TagString: Untagged
@@ -22858,6 +25318,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437652248}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1437652252
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437652248}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1442617819
 GameObject:
@@ -23293,6 +25775,7 @@ GameObject:
   - component: {fileID: 1458396246}
   - component: {fileID: 1458396248}
   - component: {fileID: 1458396247}
+  - component: {fileID: 1458396249}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (9)
   m_TagString: Untagged
@@ -23372,6 +25855,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458396245}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1458396249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458396245}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1466711930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23431,7 +25936,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1931863460}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1466711931 stripped
 Transform:
@@ -23566,6 +26074,7 @@ GameObject:
   - component: {fileID: 1484396781}
   - component: {fileID: 1484396783}
   - component: {fileID: 1484396782}
+  - component: {fileID: 1484396784}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (40)
   m_TagString: Untagged
@@ -23644,6 +26153,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484396780}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1484396784
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484396780}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1491472316
 GameObject:
@@ -23746,6 +26277,7 @@ GameObject:
   - component: {fileID: 1491843143}
   - component: {fileID: 1491843145}
   - component: {fileID: 1491843144}
+  - component: {fileID: 1491843146}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (6)
   m_TagString: Untagged
@@ -23825,6 +26357,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491843142}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1491843146
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491843142}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1500168502
 GameObject:
   m_ObjectHideFlags: 0
@@ -23836,6 +26390,7 @@ GameObject:
   - component: {fileID: 1500168503}
   - component: {fileID: 1500168505}
   - component: {fileID: 1500168504}
+  - component: {fileID: 1500168506}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (51)
   m_TagString: Untagged
@@ -23914,6 +26469,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500168502}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1500168506
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500168502}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1504641796
 GameObject:
@@ -24447,6 +27024,7 @@ GameObject:
   - component: {fileID: 1541273289}
   - component: {fileID: 1541273291}
   - component: {fileID: 1541273290}
+  - component: {fileID: 1541273292}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (10)
   m_TagString: Untagged
@@ -24525,6 +27103,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541273288}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1541273292
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541273288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1546327298
 GameObject:
@@ -24787,6 +27387,7 @@ GameObject:
   - component: {fileID: 1551497402}
   - component: {fileID: 1551497404}
   - component: {fileID: 1551497403}
+  - component: {fileID: 1551497405}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (16)
   m_TagString: Untagged
@@ -24865,6 +27466,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551497401}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1551497405
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551497401}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1551551775
 PrefabInstance:
@@ -24961,6 +27584,7 @@ GameObject:
   - component: {fileID: 1552103734}
   - component: {fileID: 1552103736}
   - component: {fileID: 1552103735}
+  - component: {fileID: 1552103737}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (4)
   m_TagString: Untagged
@@ -25039,6 +27663,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552103733}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1552103737
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552103733}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1558327871
 PrefabInstance:
@@ -25267,6 +27913,7 @@ GameObject:
   - component: {fileID: 1572678665}
   - component: {fileID: 1572678667}
   - component: {fileID: 1572678666}
+  - component: {fileID: 1572678668}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (18)
   m_TagString: Untagged
@@ -25346,11 +27993,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572678664}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1572678668
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572678664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1574608711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1151821951747626501, guid: 052735a09760c804eaa8434bf7643d36, type: 3}
   m_PrefabInstance: {fileID: 1547577221796100466}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1577477157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d39613ec732f77749968df44607a8963, type: 3}
+  m_PrefabInstance: {fileID: 355576022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1577477160
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577477157}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4493585093827132993, guid: d39613ec732f77749968df44607a8963, type: 3}
 --- !u!1 &1582189217
 GameObject:
   m_ObjectHideFlags: 0
@@ -25472,6 +28168,7 @@ GameObject:
   - component: {fileID: 1598618534}
   - component: {fileID: 1598618536}
   - component: {fileID: 1598618535}
+  - component: {fileID: 1598618537}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (24)
   m_TagString: Untagged
@@ -25551,6 +28248,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598618533}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1598618537
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598618533}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1604294203
 GameObject:
   m_ObjectHideFlags: 0
@@ -25597,6 +28316,7 @@ GameObject:
   - component: {fileID: 1604331964}
   - component: {fileID: 1604331966}
   - component: {fileID: 1604331965}
+  - component: {fileID: 1604331967}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (11)
   m_TagString: Untagged
@@ -25676,6 +28396,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604331963}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1604331967
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604331963}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1607060317
 GameObject:
   m_ObjectHideFlags: 0
@@ -25687,6 +28429,7 @@ GameObject:
   - component: {fileID: 1607060318}
   - component: {fileID: 1607060320}
   - component: {fileID: 1607060319}
+  - component: {fileID: 1607060321}
   m_Layer: 0
   m_Name: sciana_luk_mieszkanie (1)
   m_TagString: Untagged
@@ -25766,6 +28509,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607060317}
   m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1607060321
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607060317}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1613574076
 GameObject:
   m_ObjectHideFlags: 0
@@ -25777,6 +28542,7 @@ GameObject:
   - component: {fileID: 1613574077}
   - component: {fileID: 1613574079}
   - component: {fileID: 1613574078}
+  - component: {fileID: 1613574080}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (39)
   m_TagString: Untagged
@@ -25856,6 +28622,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613574076}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1613574080
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613574076}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1622529241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 83622fd3b7da2704b82007f14fbb7893, type: 3}
@@ -25872,6 +28660,7 @@ GameObject:
   - component: {fileID: 1624755377}
   - component: {fileID: 1624755379}
   - component: {fileID: 1624755378}
+  - component: {fileID: 1624755380}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (22)
   m_TagString: Untagged
@@ -25950,6 +28739,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624755376}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1624755380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624755376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1625553624
 GameObject:
@@ -26196,6 +29007,7 @@ GameObject:
   - component: {fileID: 1630985963}
   - component: {fileID: 1630985965}
   - component: {fileID: 1630985964}
+  - component: {fileID: 1630985966}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (7)
   m_TagString: Untagged
@@ -26275,6 +29087,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630985962}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1630985966
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630985962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1635357462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9079863731279567025, guid: 22dcb54cba4b16b46a16f8c6908cd52b, type: 3}
@@ -26291,6 +29125,7 @@ GameObject:
   - component: {fileID: 1635904088}
   - component: {fileID: 1635904090}
   - component: {fileID: 1635904089}
+  - component: {fileID: 1635904091}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (23)
   m_TagString: Untagged
@@ -26369,6 +29204,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635904087}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1635904091
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635904087}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1639152642
 GameObject:
@@ -26560,6 +29417,7 @@ GameObject:
   - component: {fileID: 1645680395}
   - component: {fileID: 1645680397}
   - component: {fileID: 1645680396}
+  - component: {fileID: 1645680398}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (15)
   m_TagString: Untagged
@@ -26638,6 +29496,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645680394}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1645680398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645680394}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1647207866
 PrefabInstance:
@@ -26779,13 +29659,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1647248226}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1647248225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 1647248224}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1647248226
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821665690}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &1647745330
 GameObject:
   m_ObjectHideFlags: 0
@@ -26797,6 +29702,7 @@ GameObject:
   - component: {fileID: 1647745331}
   - component: {fileID: 1647745333}
   - component: {fileID: 1647745332}
+  - component: {fileID: 1647745334}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (10)
   m_TagString: Untagged
@@ -26875,6 +29781,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647745330}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1647745334
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647745330}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1650264758
 PrefabInstance:
@@ -27041,6 +29969,7 @@ GameObject:
   - component: {fileID: 1655229694}
   - component: {fileID: 1655229696}
   - component: {fileID: 1655229695}
+  - component: {fileID: 1655229697}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (19)
   m_TagString: Untagged
@@ -27120,6 +30049,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655229693}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1655229697
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655229693}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1657709717
 GameObject:
   m_ObjectHideFlags: 0
@@ -27131,6 +30082,7 @@ GameObject:
   - component: {fileID: 1657709718}
   - component: {fileID: 1657709720}
   - component: {fileID: 1657709719}
+  - component: {fileID: 1657709721}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (11)
   m_TagString: Untagged
@@ -27210,6 +30162,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657709717}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1657709721
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657709717}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1665200744
 GameObject:
   m_ObjectHideFlags: 0
@@ -27221,6 +30195,7 @@ GameObject:
   - component: {fileID: 1665200745}
   - component: {fileID: 1665200747}
   - component: {fileID: 1665200746}
+  - component: {fileID: 1665200748}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (17)
   m_TagString: Untagged
@@ -27300,6 +30275,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665200744}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1665200748
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665200744}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1668851811
 GameObject:
   m_ObjectHideFlags: 0
@@ -27311,6 +30308,7 @@ GameObject:
   - component: {fileID: 1668851812}
   - component: {fileID: 1668851814}
   - component: {fileID: 1668851813}
+  - component: {fileID: 1668851815}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (55)
   m_TagString: Untagged
@@ -27390,6 +30388,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668851811}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1668851815
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668851811}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1676194112
 GameObject:
   m_ObjectHideFlags: 0
@@ -27401,6 +30421,7 @@ GameObject:
   - component: {fileID: 1676194113}
   - component: {fileID: 1676194115}
   - component: {fileID: 1676194114}
+  - component: {fileID: 1676194116}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (26)
   m_TagString: Untagged
@@ -27480,6 +30501,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676194112}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1676194116
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676194112}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1676890092
 GameObject:
   m_ObjectHideFlags: 0
@@ -27491,6 +30534,7 @@ GameObject:
   - component: {fileID: 1676890093}
   - component: {fileID: 1676890095}
   - component: {fileID: 1676890094}
+  - component: {fileID: 1676890096}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (49)
   m_TagString: Untagged
@@ -27570,6 +30614,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676890092}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1676890096
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676890092}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1677395352
 GameObject:
   m_ObjectHideFlags: 0
@@ -27581,6 +30647,7 @@ GameObject:
   - component: {fileID: 1677395353}
   - component: {fileID: 1677395355}
   - component: {fileID: 1677395354}
+  - component: {fileID: 1677395356}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (29)
   m_TagString: Untagged
@@ -27659,6 +30726,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677395352}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1677395356
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677395352}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1695212338
 PrefabInstance:
@@ -27780,6 +30869,7 @@ GameObject:
   - component: {fileID: 1700764293}
   - component: {fileID: 1700764295}
   - component: {fileID: 1700764294}
+  - component: {fileID: 1700764296}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (43)
   m_TagString: Untagged
@@ -27859,6 +30949,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700764292}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1700764296
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700764292}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1704137199
 GameObject:
   m_ObjectHideFlags: 0
@@ -27870,6 +30982,7 @@ GameObject:
   - component: {fileID: 1704137200}
   - component: {fileID: 1704137202}
   - component: {fileID: 1704137201}
+  - component: {fileID: 1704137203}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (5)
   m_TagString: Untagged
@@ -27949,6 +31062,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704137199}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1704137203
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704137199}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &1706693115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1037448006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1706693119
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706693115}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1716700478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28595,7 +31757,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
       insertIndex: -1
       addedObject: {fileID: 137605577}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1234743165}
+    - targetCorrespondingSourceObject: {fileID: 8339197587434449236, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1138652424}
   m_SourcePrefab: {fileID: 100100000, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1763074837
 GameObject:
@@ -28608,6 +31776,7 @@ GameObject:
   - component: {fileID: 1763074838}
   - component: {fileID: 1763074840}
   - component: {fileID: 1763074839}
+  - component: {fileID: 1763074841}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (27)
   m_TagString: Untagged
@@ -28687,6 +31856,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763074837}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1763074841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763074837}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1769215122
 GameObject:
   m_ObjectHideFlags: 0
@@ -28698,6 +31889,7 @@ GameObject:
   - component: {fileID: 1769215123}
   - component: {fileID: 1769215125}
   - component: {fileID: 1769215124}
+  - component: {fileID: 1769215126}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (2)
   m_TagString: Untagged
@@ -28777,6 +31969,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769215122}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1769215126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769215122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1771289374
 GameObject:
   m_ObjectHideFlags: 0
@@ -28788,6 +32002,7 @@ GameObject:
   - component: {fileID: 1771289375}
   - component: {fileID: 1771289377}
   - component: {fileID: 1771289376}
+  - component: {fileID: 1771289378}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (18)
   m_TagString: Untagged
@@ -28867,11 +32082,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771289374}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1771289378
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771289374}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1773715489 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 63f984ca52be45d40a47d20ccd684679, type: 3}
   m_PrefabInstance: {fileID: 1061878168}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1782714759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1319871252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1782714760
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782714759}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &1786687963
 GameObject:
   m_ObjectHideFlags: 0
@@ -29136,6 +32400,7 @@ GameObject:
   - component: {fileID: 1789036480}
   - component: {fileID: 1789036482}
   - component: {fileID: 1789036481}
+  - component: {fileID: 1789036483}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (27)
   m_TagString: Untagged
@@ -29215,6 +32480,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789036479}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1789036483
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789036479}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1790742715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29274,13 +32561,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1790742717}
   m_SourcePrefab: {fileID: 100100000, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &1790742716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
   m_PrefabInstance: {fileID: 1790742715}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1790742717
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207949620}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &1795251711
 GameObject:
   m_ObjectHideFlags: 0
@@ -29292,6 +32604,7 @@ GameObject:
   - component: {fileID: 1795251712}
   - component: {fileID: 1795251714}
   - component: {fileID: 1795251713}
+  - component: {fileID: 1795251715}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (8)
   m_TagString: Untagged
@@ -29370,6 +32683,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795251711}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1795251715
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795251711}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1796281091
 PrefabInstance:
@@ -29731,7 +33066,16 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1622529241}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8828920913587994055, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 241457466}
+    - targetCorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1964425404}
+    - targetCorrespondingSourceObject: {fileID: 8339197587434449236, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2130074719}
   m_SourcePrefab: {fileID: 100100000, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1797787716 stripped
 Transform:
@@ -29791,6 +33135,7 @@ GameObject:
   - component: {fileID: 1812155553}
   - component: {fileID: 1812155555}
   - component: {fileID: 1812155554}
+  - component: {fileID: 1812155556}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (15)
   m_TagString: Untagged
@@ -29870,6 +33215,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812155552}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1812155556
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812155552}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1815515559
 GameObject:
   m_ObjectHideFlags: 0
@@ -29881,6 +33248,7 @@ GameObject:
   - component: {fileID: 1815515560}
   - component: {fileID: 1815515562}
   - component: {fileID: 1815515561}
+  - component: {fileID: 1815515563}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (4)
   m_TagString: Untagged
@@ -29960,6 +33328,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815515559}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1815515563
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815515559}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1822753816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30037,6 +33427,7 @@ GameObject:
   - component: {fileID: 1825895012}
   - component: {fileID: 1825895014}
   - component: {fileID: 1825895013}
+  - component: {fileID: 1825895015}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (56)
   m_TagString: Untagged
@@ -30115,6 +33506,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825895011}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1825895015
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825895011}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1832580913
 PrefabInstance:
@@ -30283,6 +33696,7 @@ GameObject:
   - component: {fileID: 1854195014}
   - component: {fileID: 1854195016}
   - component: {fileID: 1854195015}
+  - component: {fileID: 1854195017}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (18)
   m_TagString: Untagged
@@ -30361,6 +33775,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854195013}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1854195017
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854195013}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1857787023
 GameObject:
@@ -30505,6 +33941,7 @@ GameObject:
   - component: {fileID: 1861066788}
   - component: {fileID: 1861066790}
   - component: {fileID: 1861066789}
+  - component: {fileID: 1861066791}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (54)
   m_TagString: Untagged
@@ -30583,6 +34020,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861066787}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1861066791
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861066787}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1862874943
 GameObject:
@@ -30731,6 +34190,7 @@ GameObject:
   - component: {fileID: 1865494644}
   - component: {fileID: 1865494646}
   - component: {fileID: 1865494645}
+  - component: {fileID: 1865494647}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (2)
   m_TagString: Untagged
@@ -30810,6 +34270,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865494643}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1865494647
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865494643}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1866066138
 GameObject:
   m_ObjectHideFlags: 0
@@ -30821,6 +34303,7 @@ GameObject:
   - component: {fileID: 1866066139}
   - component: {fileID: 1866066141}
   - component: {fileID: 1866066140}
+  - component: {fileID: 1866066142}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (15)
   m_TagString: Untagged
@@ -30899,6 +34382,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866066138}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1866066142
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866066138}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1867965499
 GameObject:
@@ -31001,6 +34506,7 @@ GameObject:
   - component: {fileID: 1872779474}
   - component: {fileID: 1872779476}
   - component: {fileID: 1872779475}
+  - component: {fileID: 1872779477}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (14)
   m_TagString: Untagged
@@ -31079,6 +34585,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872779473}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1872779477
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872779473}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1873061201
 GameObject:
@@ -31170,6 +34698,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873061201}
   m_Mesh: {fileID: -8064611356970959734, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &1873330543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8339197587434449236, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1037448006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1873330547
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873330543}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3678270924443542051, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &1876255269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31270,6 +34825,7 @@ GameObject:
   - component: {fileID: 1901127212}
   - component: {fileID: 1901127214}
   - component: {fileID: 1901127213}
+  - component: {fileID: 1901127215}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (7)
   m_TagString: Untagged
@@ -31348,6 +34904,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901127211}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1901127215
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901127211}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1901142172
 GameObject:
@@ -31762,6 +35340,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922139083}
   m_Mesh: {fileID: -8765664962942691836, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &1931863459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1466711930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1931863460
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931863459}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &1942227438
 GameObject:
   m_ObjectHideFlags: 0
@@ -31900,6 +35505,7 @@ GameObject:
   - component: {fileID: 1951987753}
   - component: {fileID: 1951987755}
   - component: {fileID: 1951987754}
+  - component: {fileID: 1951987756}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (8)
   m_TagString: Untagged
@@ -31978,6 +35584,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951987752}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1951987756
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951987752}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &1952652107 stripped
 Transform:
@@ -32101,6 +35729,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fa94c9fbb95b4c34c9b8c593cb12c825, type: 3}
   m_PrefabInstance: {fileID: 1647207866}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1964425400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4189609718620499417, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1797787715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1964425404
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964425400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1610181550549324222, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1969358002
 GameObject:
   m_ObjectHideFlags: 0
@@ -32215,6 +35870,7 @@ GameObject:
   - component: {fileID: 1972604599}
   - component: {fileID: 1972604601}
   - component: {fileID: 1972604600}
+  - component: {fileID: 1972604602}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (17)
   m_TagString: Untagged
@@ -32293,6 +35949,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972604598}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &1972604602
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972604598}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &1972691348
 GameObject:
@@ -32997,6 +36675,7 @@ GameObject:
   - component: {fileID: 2008272787}
   - component: {fileID: 2008272789}
   - component: {fileID: 2008272788}
+  - component: {fileID: 2008272790}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (53)
   m_TagString: Untagged
@@ -33076,6 +36755,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008272786}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2008272790
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008272786}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &2008675474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1098375050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2008675475
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008675474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &2023885827
 GameObject:
   m_ObjectHideFlags: 0
@@ -33087,6 +36815,7 @@ GameObject:
   - component: {fileID: 2023885828}
   - component: {fileID: 2023885830}
   - component: {fileID: 2023885829}
+  - component: {fileID: 2023885831}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (9)
   m_TagString: Untagged
@@ -33166,6 +36895,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023885827}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2023885831
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023885827}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &2029431794
 GameObject:
   m_ObjectHideFlags: 0
@@ -33177,6 +36928,7 @@ GameObject:
   - component: {fileID: 2029431795}
   - component: {fileID: 2029431797}
   - component: {fileID: 2029431796}
+  - component: {fileID: 2029431798}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (4)
   m_TagString: Untagged
@@ -33255,6 +37007,28 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029431794}
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2029431798
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029431794}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!4 &2029480452 stripped
 Transform:
@@ -33441,6 +37215,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046030735}
   m_Mesh: {fileID: -8064611356970959734, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &2053105604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 1235800089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2053105605
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053105604}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!4 &2055438944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1beb030f30009e24d847e9dd02ec298b, type: 3}
@@ -33640,6 +37441,7 @@ GameObject:
   - component: {fileID: 2087719377}
   - component: {fileID: 2087719379}
   - component: {fileID: 2087719378}
+  - component: {fileID: 2087719380}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (42)
   m_TagString: Untagged
@@ -33719,6 +37521,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087719376}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2087719380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087719376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &2100656293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33741,15 +37565,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 94ea1562ee2dfea4fbfca87a2c94ee22, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -61.049
+      value: -43.094
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 94ea1562ee2dfea4fbfca87a2c94ee22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.647
+      value: 0.228
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 94ea1562ee2dfea4fbfca87a2c94ee22, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.838
+      value: 13.318
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 94ea1562ee2dfea4fbfca87a2c94ee22, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33989,6 +37813,7 @@ GameObject:
   - component: {fileID: 2111004493}
   - component: {fileID: 2111004495}
   - component: {fileID: 2111004494}
+  - component: {fileID: 2111004496}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (25)
   m_TagString: Untagged
@@ -34068,6 +37893,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111004492}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2111004496
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111004492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &2112651338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
+  m_PrefabInstance: {fileID: 979584190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2112651339
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112651338}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7483352039260958482, guid: fa1639bdd2536c14f9641c7afd293723, type: 3}
 --- !u!1 &2124277449
 GameObject:
   m_ObjectHideFlags: 0
@@ -34079,6 +37953,7 @@ GameObject:
   - component: {fileID: 2124277450}
   - component: {fileID: 2124277452}
   - component: {fileID: 2124277451}
+  - component: {fileID: 2124277453}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (5)
   m_TagString: Untagged
@@ -34158,6 +38033,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124277449}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2124277453
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124277449}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1001 &2125510217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34235,6 +38132,7 @@ GameObject:
   - component: {fileID: 2127927205}
   - component: {fileID: 2127927207}
   - component: {fileID: 2127927206}
+  - component: {fileID: 2127927208}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (28)
   m_TagString: Untagged
@@ -34314,6 +38212,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127927204}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2127927208
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127927204}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &2129365585
 GameObject:
   m_ObjectHideFlags: 0
@@ -34325,6 +38245,7 @@ GameObject:
   - component: {fileID: 2129365586}
   - component: {fileID: 2129365588}
   - component: {fileID: 2129365587}
+  - component: {fileID: 2129365589}
   m_Layer: 0
   m_Name: sciana1_mieszkanie (28)
   m_TagString: Untagged
@@ -34404,6 +38325,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129365585}
   m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!64 &2129365589
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129365585}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5177629926533538593, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+--- !u!1 &2130074715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8339197587434449236, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
+  m_PrefabInstance: {fileID: 1797787715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2130074719
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130074715}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3678270924443542051, guid: 7f754fe04afc20f46b7163268361d4be, type: 3}
 --- !u!1 &2131269970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa94c9fbb95b4c34c9b8c593cb12c825, type: 3}

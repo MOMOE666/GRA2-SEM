@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,41 +12,39 @@ public class Interactor : MonoBehaviour
     public float InteractRange;
     public LayerMask interactableLayer;
 
-    // Create a list to store interactable objects
-    private List<IInteractable> inventory = new List<IInteractable>();
-
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-
             CheckInteracte();
         }
     }
 
     private void CheckInteracte()
     {
-        // Start a new interaction
-
         Collider[] colliders = Physics.OverlapSphere(InteractorSource.position, InteractRange, interactableLayer);
+
+        IInteractable closestInteractable = null;
+        float closestDistance = Mathf.Infinity;
+
         foreach (Collider collider in colliders)
         {
-
             if (collider.TryGetComponent<IInteractable>(out var interactObj))
             {
-
-                // Check if the interactable object is within the specified range
                 float distance = Vector3.Distance(InteractorSource.position, collider.transform.position);
-                if (distance <= InteractRange )
-                {
 
-                    interactObj.Interact();
-                    inventory.Add(interactObj);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestInteractable = interactObj;
                 }
             }
         }
+
+        //to bedzie najblizsze do zbierania
+        if (closestInteractable != null)
+        {
+            closestInteractable.Interact();
+        }
     }
-
-
 }

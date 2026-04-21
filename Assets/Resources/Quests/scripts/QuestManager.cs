@@ -14,9 +14,11 @@ public class QuestManager : MonoBehaviour
 
     public int range = 3;
     public GameObject npcPosition;
+    public GameObject StarszaPani;
     public GameObject myPosition;
 
     private string SampleQuest = "Assets/Resources/Quests/SampleQuest.xml";
+    private string SampleQuest2 = "Assets/Resources/Quests/SampleQuest2.xml";
 
     void Start()
     {
@@ -36,17 +38,25 @@ public class QuestManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G) &&
-            Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
+        if (Input.GetKeyDown(KeyCode.G))
         {
-            // pierwsze otwarcie albo kolejne linie dialogu
-            if (!questDialog.activeSelf)
+
+            if (questDialog.activeSelf)
             {
-                StartQuest(SampleQuest);
+                questDialog.GetComponent<QuestDisplayComponent>().ProgressNode();
             }
             else
             {
-                questDialog.GetComponent<QuestDisplayComponent>().ProgressNode();
+
+                if (Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
+                {
+                    StartQuest(SampleQuest);
+                }
+
+                else if (Vector3.Distance(myPosition.transform.position, StarszaPani.transform.position) < range)
+                {
+                    StartQuest(SampleQuest2);
+                }
             }
         }
     }

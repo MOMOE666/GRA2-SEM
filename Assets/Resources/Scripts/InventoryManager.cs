@@ -1,23 +1,15 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
-
-[System.Serializable]
-public class InventoryItem
-{
-    public string itemName;
-    public int quantity;
-
-}
 
 public class InventoryManager : MonoBehaviour
 {
-    public HashSet<InventoryItem> inventory = new HashSet<InventoryItem>();
+    public List<string> itemNames = new List<string>();
+    public List<InventoryItem> inventory = new List<InventoryItem>();
 
-  
     public void AddItem(string itemName)
     {
-        InventoryItem existingItem = inventory.FirstOrDefault(item => item.itemName == itemName);
+        string cleanName = itemName.Split(' ')[0].ToLower().Trim();
+        InventoryItem existingItem = inventory.Find(item => item.itemName.ToLower() == cleanName);
 
         if (existingItem != null)
         {
@@ -25,16 +17,26 @@ public class InventoryManager : MonoBehaviour
         }
         else
         {
-            InventoryItem newItem = new InventoryItem { itemName = itemName, quantity = 1 };
-            inventory.Add(newItem);
+            inventory.Add(new InventoryItem { itemName = cleanName, quantity = 1 });
         }
+    }
+
+    public int GetItemQuantity(string itemName)
+    {
+        string cleanName = itemName.Split(' ')[0].ToLower().Trim();
+        InventoryItem item = inventory.Find(i => i.itemName.ToLower() == cleanName);
+        return item != null ? item.quantity : 0;
     }
 
     public bool HasItem(string itemName)
     {
-        InventoryItem existingItem = inventory.FirstOrDefault(item => item.itemName == itemName);
-        return existingItem != null && existingItem.quantity > 0;
+        return GetItemQuantity(itemName) > 0;
     }
+}
 
-   
+[System.Serializable]
+public class InventoryItem
+{
+    public string itemName;
+    public int quantity;
 }

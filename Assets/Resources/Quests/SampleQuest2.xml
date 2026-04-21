@@ -1,0 +1,20 @@
+<Quest>
+	<QuestTitle>Quest Tutorial</QuestTitle>
+	<Nodes>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>lalalalalla</NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>lalalalalala potrzebuje?</NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>Możesz zacząć od sprawdzenia co u Piątkowskich spod 102, ostatnio narzekali na psującego się pilota. </NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+	</Nodes>
+</Quest>

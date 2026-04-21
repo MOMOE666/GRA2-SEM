@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,21 +5,25 @@ public class UI_interacteImages : MonoBehaviour
 {
     public InventoryManager inventoryManager;
 
-    [Header("Interactables Images")]
-    [SerializeField] private RawImage[] interactableImages;
-    [SerializeField] private string[] itemNames;
+    [Header("ZDJECIA")]
+    public RawImage[] imagesToToggle;
 
     void Update()
     {
-        for (int i = 0; i < interactableImages.Length; i++)
-        {
-            UpdateInventoryImage(interactableImages[i], itemNames[i]);
-        }
-    }
+        if (inventoryManager == null || imagesToToggle == null) return;
 
-    private void UpdateInventoryImage(RawImage InventoryImage, string itemName)
-    {
-        bool hasItem = inventoryManager.HasItem(itemName);
-        InventoryImage.enabled = hasItem;
+        int totalQuantity = 0;
+        foreach (var item in inventoryManager.inventory)
+        {
+            totalQuantity += item.quantity;
+        }
+
+        for (int i = 0; i < imagesToToggle.Length; i++)
+        {
+            if (imagesToToggle[i] != null)
+            {
+                imagesToToggle[i].enabled = (i < totalQuantity);
+            }
+        }
     }
 }

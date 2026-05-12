@@ -29425,14 +29425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6068083b609f2904f9c3d2207163809b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Footsteps
---- !u!81 &1574608718
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574608711}
-  m_Enabled: 1
 --- !u!1 &1577477157 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d39613ec732f77749968df44607a8963, type: 3}
@@ -40532,9 +40524,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1151821951747626501, guid: 052735a09760c804eaa8434bf7643d36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1574608717}
-    - targetCorrespondingSourceObject: {fileID: 1151821951747626501, guid: 052735a09760c804eaa8434bf7643d36, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1574608718}
     - targetCorrespondingSourceObject: {fileID: 4584556068550868794, guid: 052735a09760c804eaa8434bf7643d36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1283910791}

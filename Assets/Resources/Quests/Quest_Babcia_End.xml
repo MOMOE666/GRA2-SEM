@@ -1,0 +1,20 @@
+<Quest>
+	<QuestTitle>Quest Tutorial</QuestTitle>
+	<Nodes>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>Dziękuję Serdelku, </NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>lalalalalala potrzebuje?</NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText> </NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+	</Nodes>
+</Quest>

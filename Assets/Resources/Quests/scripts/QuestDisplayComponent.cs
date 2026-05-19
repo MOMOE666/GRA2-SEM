@@ -7,14 +7,10 @@ public class QuestDisplayComponent : MonoBehaviour
 {
     public Quest Quest;
 
-    [SerializeField]
-    private Image nodeImage;
-    [SerializeField]
-    private Text nodeTitle;
-    [SerializeField]
-    private Text nodeText;
-    [SerializeField]
-    private QuestManager questManager;
+    [SerializeField] private Image nodeImage;
+    [SerializeField] private Text nodeTitle;
+    [SerializeField] private Text nodeText;
+    [SerializeField] private QuestManager questManager;
 
     private QuestNode currentNode;
 
@@ -30,18 +26,21 @@ public class QuestDisplayComponent : MonoBehaviour
 
         if (currentNode == null)
         {
-            gameObject.SetActive(false);
+            questManager.KoniecDialogu(Quest.FilePath);
             return;
         }
 
         nodeImage.sprite = questManager.GetIcon(currentNode.NodeImage);
-
         nodeTitle.text = currentNode.NodeTitle;
         nodeText.text = currentNode.NodeText;
 
         if (nodeImage.sprite == null)
         {
             nodeImage.gameObject.SetActive(false);
+        }
+        else
+        {
+            nodeImage.gameObject.SetActive(true);
         }
     }
 }

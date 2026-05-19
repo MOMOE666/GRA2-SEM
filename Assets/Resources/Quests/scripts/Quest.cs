@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.Xml.Serialization;
 using System.IO;
 
@@ -13,8 +11,7 @@ public class Quest
     [XmlAttribute("QuestTitle")]
     public string QuestTitle;
 
-    [System.NonSerialized]
-    private QuestNode currentNode;
+    public string FilePath;
 
     [System.NonSerialized]
     private int position;
@@ -23,8 +20,7 @@ public class Quest
     {
         if (HasNextQuestNode())
         {
-            currentNode = Nodes[position++];
-            return currentNode;
+            return Nodes[position++];
         }
         return null;
     }
@@ -41,6 +37,7 @@ public class Quest
         var quest = serializer.Deserialize(stream) as Quest;
         stream.Close();
 
+        quest.FilePath = fileName;
         return quest;
     }
-}
+} 

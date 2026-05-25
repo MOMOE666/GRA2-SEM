@@ -4,7 +4,7 @@ public class Book_interacte : MonoBehaviour, IInteractable
 {
     public InventoryManager inventoryManager;
     public QuestManager questManager;
-    public int requiredAmount = 2;
+    public int requiredAmount = 5;
 
     public void Interact()
     {

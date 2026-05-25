@@ -36,4 +36,54 @@ public class QuestManager : MonoBehaviour
             iconDict.Add(sprite.name, sprite);
         }
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            if (questDialog.activeSelf)
+            {
+                questDialog.GetComponent<QuestDisplayComponent>().ProgressNode();
+            }
+            else
+            {
+                if (Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
+                {
+                    if (ukonczoneQuesty.Contains(SampleQuest))
+                        StartQuest(SampleQuest_Po); // Jeœli skoñczony, ³aduj plik "Po"
+                    else
+                        StartQuest(SampleQuest);
+                }
+                else if (Vector3.Distance(myPosition.transform.position, StarszaPani.transform.position) < range)
+                {
+                    if (ukonczoneQuesty.Contains(SampleQuest2))
+                        StartQuest(SampleQuest2_Po);
+                    else
+                        StartQuest(SampleQuest2);
+                }
+            }
+        }
+    }
+
+    public void StartQuest(string questFilePath)
+    {
+        questDialog.SetActive(true);
+        questDialog.GetComponent<QuestDisplayComponent>()
+            .Initialize(Quest.LoadQuest(questFilePath));
+    }
+
+    public void KoniecDialogu(string sciezkaPliku)
+    {
+        if (!ukonczoneQuesty.Contains(sciezkaPliku))
+        {
+            ukonczoneQuesty.Add(sciezkaPliku);
+        }
+        questDialog.SetActive(false);
+    }
+
+    public Sprite GetIcon(string iconName)
+    {
+        if (iconDict.TryGetValue(iconName, out Sprite sprite))
+            return sprite;
+        return null;
+    }
 }

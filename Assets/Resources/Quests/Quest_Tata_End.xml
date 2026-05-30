@@ -1,0 +1,30 @@
+<Quest>
+	<QuestTitle>Quest Tata</QuestTitle>
+	<Nodes>
+		<Node>
+			<NodeTitle>Syn</NodeTitle>
+			<NodeText>Wszystkim już pomogłem.</NodeText>
+			<NodeImage>Syn</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>Bardzo dobrze. To znaczy że świetnie sobie poradzisz na moim miejscu. To bardzo ważne, żeby mieć wokół siebie dobrych ludzi, wiesz?</NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Syn</NodeTitle>
+			<NodeText>Wiem, wiem…</NodeText>
+			<NodeImage>Syn</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>Późno już. Dobranoc Tadziu, kocham cię.</NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Syn</NodeTitle>
+			<NodeText>Dobranoc, tato.</NodeText>
+			<NodeImage>Syn</NodeImage>
+		</Node>
+	</Nodes>
+</Quest>

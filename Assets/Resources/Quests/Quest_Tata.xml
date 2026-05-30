@@ -1,19 +1,24 @@
 <Quest>
-	<QuestTitle>Quest Tutorial</QuestTitle>
+	<QuestTitle>Quest Tata</QuestTitle>
 	<Nodes>
 		<Node>
 			<NodeTitle>Tata</NodeTitle>
-			<NodeText>Tadziu,nie czuję się dzisiaj najlepiej...</NodeText>
+			<NodeText>Tadziu! Tadziu, wstałeś już?</NodeText>
+			<NodeImage>Tata</NodeImage>   
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>Nie najlepiej się dziś czuję. Dałbyś radę popytać czy ktoś czegoś potrzebuje i im pomóc?</NodeText>
 			<NodeImage>Tata</NodeImage>
 		</Node>
 		<Node>
 			<NodeTitle>Tata</NodeTitle>
-			<NodeText>Mogłbyś zrobić obchód po mieszkańcach, sprawdzić czy nikt nic nie potrzebuje?</NodeText>
+			<NodeText>Zrobisz to? Dziękuję. Ja się muszę położyć…</NodeText>
 			<NodeImage>Tata</NodeImage>
 		</Node>
 		<Node>
 			<NodeTitle>Tata</NodeTitle>
-			<NodeText>Możesz zacząć od sprawdzenia co u Piątkowskich spod 102, ostatnio narzekali na psującego się pilota. </NodeText>
+			<NodeText>Najpierw sprawdź co u tego twojego kolegi z 102, zawsze mają jakiś problem z telewizorem.</NodeText>
 			<NodeImage>Tata</NodeImage>
 		</Node>
 	</Nodes>

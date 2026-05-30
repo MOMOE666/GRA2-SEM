@@ -1,0 +1,15 @@
+<Quest>
+	<QuestTitle>Quest Dzieciok</QuestTitle>
+	<Nodes>
+		<Node>
+			<NodeTitle>Paweł</NodeTitle>
+			<NodeText>Dzięki, stary! Na ciebie zawsze można liczyć. Też chcesz zostać konserwatorem czy...?</NodeText>
+			<NodeImage>Dziecko</NodeImage>   
+		</Node>
+		<Node>
+			<NodeTitle>Paweł</NodeTitle>
+			<NodeText>...Rozumiem. Wiesz, Pani Jadzia z 103 pewnie też potrzebuje pomocy.</NodeText>
+			<NodeImage>Dziecko</NodeImage>
+		</Node>
+	</Nodes>
+</Quest>

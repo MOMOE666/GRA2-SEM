@@ -1,0 +1,15 @@
+<Quest>
+	<QuestTitle>Quest Dzieciok</QuestTitle>
+	<Nodes>
+		<Node>
+			<NodeTitle>Paweł</NodeTitle>
+			<NodeText>Tadek, siema!</NodeText>
+			<NodeImage>Dziecko</NodeImage>   
+		</Node>
+		<Node>
+			<NodeTitle>Paweł</NodeTitle>
+			<NodeText>Słuchaj, chciałem pograć zanim rodzice wrócą, ale ta durna płyta zacięła mi się w odtwarzaczu... Wiesz jak to naprawić?</NodeText>
+			<NodeImage>Dziecko</NodeImage>
+		</Node>
+	</Nodes>
+</Quest>

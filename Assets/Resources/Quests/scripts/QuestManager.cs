@@ -13,12 +13,30 @@ public class QuestManager : MonoBehaviour
     public GameObject npcPosition;
     public GameObject StarszaPani;
     public GameObject myPosition;
+    public GameObject Dzieciok;
+    public GameObject Jerzy;
+    
+    public GameObject śmieci1;
+    public GameObject śmieci2;
+    public GameObject śmieci3;
+    public GameObject śmieci4;
+    public GameObject śmieci5;
+    //to be clear this is a TERRIBLE way of doing this but i need it to friccin work so i dont care -sam
+    
 
-    private string SampleQuest = "Assets/Resources/Quests/Quest_Tata.xml";
-    private string SampleQuest2 = "Assets/Resources/Quests/Quest_Tata_End.xml";
+    private string TataQuest = "Assets/Resources/Quests/Quest_Tata.xml";
+    private string TataQuestPo = "Assets/Resources/Quests/Quest_Tata_End.xml";
 
-    private string SampleQuest_Po = "Assets/Resources/Quests/Quest_Babcia.xml";
-    private string SampleQuest2_Po = "Assets/Resources/Quests/Quest_Babcia_End.xml";
+    private string BabciaQuest = "Assets/Resources/Quests/Quest_Babcia.xml";
+    private string BabciaQuestPo = "Assets/Resources/Quests/Quest_Babcia_End.xml";
+
+    private string DzieciokQuest = "Assets/Resources/Quests/Quest_Dzieciok.xml";
+    private string DzieciokQuestPo = "Assets/Resources/Quests/Quest_Dzieciok_End.xml";
+
+    private string JerzyQuest = "Assets/Resources/Quests/Quest_Jerzy.xml";
+    private string JerzyQuestPo = "Assets/Resources/Quests/Quest_Jerzy_End.xml";
+
+
 
     private List<string> ukonczoneQuesty = new List<string>();
 
@@ -47,18 +65,35 @@ public class QuestManager : MonoBehaviour
             else
             {
                 if (Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
-                {
-                    if (ukonczoneQuesty.Contains(SampleQuest))
-                        StartQuest(SampleQuest_Po); // Je�li sko�czony, �aduj plik "Po"
+                {//ojciec
+                    if (ukonczoneQuesty.Contains(TataQuest))
+                        StartQuest(TataQuestPo); // Je�li sko�czony, �aduj plik "Po"
                     else
-                        StartQuest(SampleQuest);
+                        StartQuest(TataQuest);
                 }
                 else if (Vector3.Distance(myPosition.transform.position, StarszaPani.transform.position) < range)
-                {
-                    if (ukonczoneQuesty.Contains(SampleQuest2))
-                        StartQuest(SampleQuest2_Po);
-                    else
-                        StartQuest(SampleQuest2);
+                {//babunia
+                //po
+                    if (śmieci1.activeSelf & śmieci2.activeSelf & śmieci3.activeSelf & śmieci4.activeSelf & śmieci5.activeSelf )
+                        StartQuest(BabciaQuestPo);
+                    else //przed
+                        StartQuest(BabciaQuest);
+                }
+                else if (Vector3.Distance(myPosition.transform.position, Dzieciok.transform.position) < range)
+                {//quest dziecioka
+                //po
+                    if (ukonczoneQuesty.Contains(DzieciokQuest))
+                        StartQuest(DzieciokQuestPo);
+                    else //przed
+                        StartQuest(DzieciokQuest);
+                }
+                else if (Vector3.Distance(myPosition.transform.position, Jerzy.transform.position) < range)
+                {//quest Jerzego
+                //po
+                    if (ukonczoneQuesty.Contains(JerzyQuest))
+                        StartQuest(JerzyQuestPo);
+                    else //przed
+                        StartQuest(JerzyQuest);
                 }
             }
         }

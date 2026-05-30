@@ -1,0 +1,30 @@
+<Quest>
+	<QuestTitle>Quest Jerzy</QuestTitle>
+	<Nodes>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>Tylko trzynaście lat a jaki dobry konserwator z ciebie, ha!</NodeText>
+			<NodeImage>Jerzy</NodeImage>   
+		</Node>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>...</NodeText>
+			<NodeImage>Jerzy</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>Hej, młody. Światło naprawione, ale widzę że wcale ci nie lepiej. Nie masz się czym martwić.</NodeText>
+			<NodeImage>Jerzy</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>Kazik już tak ma, że często choruje...</NodeText>
+			<NodeImage>Jerzy</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>Myślę, że jest dumny z tego, że nam pomagasz.</NodeText>
+			<NodeImage>Jerzy</NodeImage>
+		</Node>
+	</Nodes>
+</Quest>

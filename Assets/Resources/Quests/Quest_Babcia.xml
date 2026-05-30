@@ -1,20 +1,15 @@
 <Quest>
-	<QuestTitle>Quest Tutorial</QuestTitle>
+	<QuestTitle>Quest Babcia</QuestTitle>
 	<Nodes>
 		<Node>
-			<NodeTitle>Tata</NodeTitle>
-			<NodeText>lalalalalla</NodeText>
-			<NodeImage>Tata</NodeImage>
+			<NodeTitle>Pani Jadzia</NodeTitle>
+			<NodeText>Tadziuś, kochanie, masz może chwilę?</NodeText>
+			<NodeImage>Jadzia</NodeImage>
 		</Node>
 		<Node>
-			<NodeTitle>Tata</NodeTitle>
-			<NodeText>lalalalalala potrzebuje?</NodeText>
-			<NodeImage>Tata</NodeImage>
-		</Node>
-		<Node>
-			<NodeTitle>Tata</NodeTitle>
-			<NodeText>Możesz zacząć od sprawdzenia co u Piątkowskich spod 102, ostatnio narzekali na psującego się pilota. </NodeText>
-			<NodeImage>Tata</NodeImage>
+			<NodeTitle>Pani Jadzia</NodeTitle>
+			<NodeText>Tyle roboty w domu, że nie ma nawet czasu śmieci wyrzucić. Pomóżże starej sąsiadce, co?</NodeText>
+			<NodeImage>Jadzia</NodeImage>
 		</Node>
 	</Nodes>
 </Quest>

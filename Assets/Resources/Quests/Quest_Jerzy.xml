@@ -1,0 +1,15 @@
+<Quest>
+	<QuestTitle>Quest Jerzy</QuestTitle>
+	<Nodes>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>Ah, Pan Majster cię wysłał, co? Dobra młody, pomożesz mi z czymś.</NodeText>
+			<NodeImage>Jerzy</NodeImage>   
+		</Node>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>Wysiadły mi bezpieczniki. Próbowałem naprawić je sam ale wzrok już nie ten...</NodeText>
+			<NodeImage>Jerzy</NodeImage>
+		</Node>
+	</Nodes>
+</Quest>

@@ -1,20 +1,20 @@
 <Quest>
-	<QuestTitle>Quest Tutorial</QuestTitle>
+	<QuestTitle>Quest Babcia</QuestTitle>
 	<Nodes>
 		<Node>
-			<NodeTitle>Tata</NodeTitle>
-			<NodeText>Dziękuję Serdelku, </NodeText>
-			<NodeImage>Tata</NodeImage>
+			<NodeTitle>Pani Jadzia</NodeTitle>
+			<NodeText>Dziękuję serdeleczku, będą z ciebie ludzie.</NodeText>
+			<NodeImage>Jadzia</NodeImage>
 		</Node>
 		<Node>
-			<NodeTitle>Tata</NodeTitle>
-			<NodeText>lalalalalala potrzebuje?</NodeText>
-			<NodeImage>Tata</NodeImage>
+			<NodeTitle>Pani Jadzia</NodeTitle>
+			<NodeText>Sprawdziłbyś co u Pana Jerzego? Przed chwilą widziałam jak kręcił coś przy bezpiecznikach od 104.</NodeText>
+			<NodeImage>Jadzia</NodeImage>
 		</Node>
 		<Node>
-			<NodeTitle>Tata</NodeTitle>
-			<NodeText> </NodeText>
-			<NodeImage>Tata</NodeImage>
+			<NodeTitle>Pani Jadzia</NodeTitle>
+			<NodeText>I… pozdrów ode mnie Kazimierza. Niech wraca szybko do zdrowia.</NodeText>
+			<NodeImage>Jadzia</NodeImage>
 		</Node>
 	</Nodes>
 </Quest>

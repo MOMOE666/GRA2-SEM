@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class UI_interacteImages : MonoBehaviour
 {
     public InventoryManager inventoryManager;
+    public QuestManager questManager;
 
     [Header("ZDJECIA")]
     public RawImage[] imagesToToggle;
@@ -24,6 +25,15 @@ public class UI_interacteImages : MonoBehaviour
             {
                 imagesToToggle[i].enabled = (i < totalQuantity);
             }
+        }
+        
+        if (questManager != null)
+        {
+            questManager.śmieci1.SetActive(totalQuantity >= 1);
+            questManager.śmieci2.SetActive(totalQuantity >= 2);
+            questManager.śmieci3.SetActive(totalQuantity >= 3);
+            questManager.śmieci4.SetActive(totalQuantity >= 4);
+            questManager.śmieci5.SetActive(totalQuantity >= 5);
         }
     }
 }

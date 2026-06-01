@@ -4686,7 +4686,7 @@ GameObject:
   - component: {fileID: 182972630}
   - component: {fileID: 182972629}
   m_Layer: 0
-  m_Name: "\u015Bwiat\u0142a minigra 1"
+  m_Name: "\u015Bwiat\u0142a minigra2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5222,6 +5222,26 @@ PrefabInstance:
       propertyPath: Dzieciok
       value: 
       objectReference: {fileID: 1684321999}
+    - target: {fileID: 9138764093190070394, guid: 00001d98429efbd479747ad8baf045de, type: 3}
+      propertyPath: swiatlo1
+      value: 
+      objectReference: {fileID: 464662815}
+    - target: {fileID: 9138764093190070394, guid: 00001d98429efbd479747ad8baf045de, type: 3}
+      propertyPath: swiatlo2
+      value: 
+      objectReference: {fileID: 182972627}
+    - target: {fileID: 9138764093190070394, guid: 00001d98429efbd479747ad8baf045de, type: 3}
+      propertyPath: swiatlo3
+      value: 
+      objectReference: {fileID: 1810434072}
+    - target: {fileID: 9138764093190070394, guid: 00001d98429efbd479747ad8baf045de, type: 3}
+      propertyPath: swiatlo4
+      value: 
+      objectReference: {fileID: 1163560605}
+    - target: {fileID: 9138764093190070394, guid: 00001d98429efbd479747ad8baf045de, type: 3}
+      propertyPath: swiatlo5
+      value: 
+      objectReference: {fileID: 1717097230}
     - target: {fileID: 9138764093190070394, guid: 00001d98429efbd479747ad8baf045de, type: 3}
       propertyPath: "\u015Bmieci1"
       value: 
@@ -12166,7 +12186,7 @@ GameObject:
   - component: {fileID: 464662818}
   - component: {fileID: 464662817}
   m_Layer: 0
-  m_Name: "\u015Bwiat\u0142a minigra"
+  m_Name: "\u015Bwiat\u0142a minigra1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28381,7 +28401,7 @@ GameObject:
   - component: {fileID: 1163560608}
   - component: {fileID: 1163560607}
   m_Layer: 0
-  m_Name: "\u015Bwiat\u0142a  2"
+  m_Name: "\u015Bwiat\u0142a minigra4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

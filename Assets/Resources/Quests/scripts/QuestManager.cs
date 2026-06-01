@@ -22,6 +22,11 @@ public class QuestManager : MonoBehaviour
     public GameObject śmieci4;
     public GameObject śmieci5;
     //to be clear this is a TERRIBLE way of doing this but i need it to friccin work so i dont care -sam
+
+    public GameObject swiatlo1;
+    public GameObject swiatlo2;
+    public GameObject swiatlo3;
+    public GameObject swiatlo4;
     
 
     private string TataQuest = "Assets/Resources/Quests/Quest_Tata.xml";
@@ -74,7 +79,7 @@ public class QuestManager : MonoBehaviour
                 else if (Vector3.Distance(myPosition.transform.position, StarszaPani.transform.position) < range)
                 {//babunia
                 //po
-                    if (śmieci1.activeSelf & śmieci2.activeSelf & śmieci3.activeSelf & śmieci4.activeSelf & śmieci5.activeSelf )
+                    if (śmieci1.activeSelf & śmieci2.activeSelf & śmieci3.activeSelf & śmieci4.activeSelf & śmieci5.activeSelf)
                         StartQuest(BabciaQuestPo);
                     else //przed
                         StartQuest(BabciaQuest);
@@ -90,7 +95,7 @@ public class QuestManager : MonoBehaviour
                 else if (Vector3.Distance(myPosition.transform.position, Jerzy.transform.position) < range)
                 {//quest Jerzego
                 //po
-                    if (ukonczoneQuesty.Contains(JerzyQuest))
+                    if (swiatlo1.activeSelf & swiatlo2.activeSelf & swiatlo3.activeSelf & swiatlo4.activeSelf)
                         StartQuest(JerzyQuestPo);
                     else //przed
                         StartQuest(JerzyQuest);

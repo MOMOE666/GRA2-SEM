@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +7,8 @@ public class QuestManager : MonoBehaviour
 
     [SerializeField] private Sprite[] icons;
     [SerializeField] private GameObject questDialog;
+    [SerializeField] PointerController PointerController;
+    private int doneQuests = 0;
 
     public int range = 3;
     public GameObject npcPosition;
@@ -49,6 +50,7 @@ public class QuestManager : MonoBehaviour
     {
         questDialog.SetActive(false);
         LoadIconsFromSprites();
+        PointerController.IsPlytaDone = false;
     }
 
     private void LoadIconsFromSprites()
@@ -71,7 +73,7 @@ public class QuestManager : MonoBehaviour
             {
                 if (Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
                 {//ojciec
-                    if (ukonczoneQuesty.Contains(TataQuest))
+                    if (doneQuests == 3)
                         StartQuest(TataQuestPo); // Je�li sko�czony, �aduj plik "Po"
                     else
                         StartQuest(TataQuest);
@@ -80,15 +82,21 @@ public class QuestManager : MonoBehaviour
                 {//babunia
                 //po
                     if (śmieci1.activeSelf & śmieci2.activeSelf & śmieci3.activeSelf & śmieci4.activeSelf & śmieci5.activeSelf)
+                        {
                         StartQuest(BabciaQuestPo);
+                        doneQuests++;
+                        }
                     else //przed
                         StartQuest(BabciaQuest);
                 }
                 else if (Vector3.Distance(myPosition.transform.position, Dzieciok.transform.position) < range)
                 {//quest dziecioka
                 //po
-                    if (ukonczoneQuesty.Contains(DzieciokQuest))
+                    if (PointerController.IsPlytaDone == true)
+                        {
                         StartQuest(DzieciokQuestPo);
+                        doneQuests++;
+                        }
                     else //przed
                         StartQuest(DzieciokQuest);
                 }
@@ -96,7 +104,10 @@ public class QuestManager : MonoBehaviour
                 {//quest Jerzego
                 //po
                     if (swiatlo1.activeSelf & swiatlo2.activeSelf & swiatlo3.activeSelf & swiatlo4.activeSelf)
+                        {
                         StartQuest(JerzyQuestPo);
+                        doneQuests++;
+                        }
                     else //przed
                         StartQuest(JerzyQuest);
                 }

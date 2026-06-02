@@ -3,25 +3,34 @@ using UnityEngine;
 public class OnTriggerEnterPlyta : MonoBehaviour
 {
     [SerializeField] public GameObject PlytaMinigameCanvas;
-    [SerializeField] public GameObject Background;
-    [SerializeField] public GameObject Area;
-    [SerializeField] public GameObject SafeZone;
-    [SerializeField] public GameObject Pointer;
-    [SerializeField] public GameObject PointA;
-    [SerializeField] public GameObject PointB;
+    [SerializeField] PlayerMovement playerMovementScript;
+    private bool playerInTrigger = false;
 
-    private void OnTriggerEnter(Collider other)
+
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (playerInTrigger && Input.GetKeyDown(KeyCode.F))
         {
             PlytaMinigameCanvas.SetActive(true);
-            Background.SetActive(true);
-            Area.SetActive(true);
-            SafeZone.SetActive(true);
-            Pointer.SetActive(true);
-            PointA.SetActive(true);
-            PointB.SetActive(true);
-            Debug.Log("set all plyta minigame parts to active");
+            Debug.Log("set plyta canvas to true");
+            playerMovementScript.enabled = false;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInTrigger = true;
+            Debug.Log("Player może zagrać w plyte");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInTrigger = false;
+            Debug.Log("Player nie moze zagrać w plyte");
         }
     }
 }

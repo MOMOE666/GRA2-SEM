@@ -5,14 +5,9 @@ public class PointerController : MonoBehaviour
     [Header("Obiekty")]
     [SerializeField] public GameObject PlytaMinigameTrigger;
     [SerializeField] public GameObject PlytaCanvas;
-    [SerializeField] public GameObject Background;
-    [SerializeField] public GameObject Area;
-    [SerializeField] public GameObject SafeZone;
-    [SerializeField] public GameObject Pointer;
-    [SerializeField] public GameObject PointA;
-    [SerializeField] public GameObject PointB;
+    [SerializeField] PlayerMovement playerMovementScript;
 
-    [Header("Varjables")]
+    [Header("Los Varjables")]
     public bool IsPlytaDone;
     public Transform pointA; // Reference to the starting point
     public Transform pointB; // Reference to the ending point
@@ -47,7 +42,7 @@ public class PointerController : MonoBehaviour
         }
  
         // Check for input
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             CheckSuccess();
         }
@@ -62,19 +57,14 @@ public class PointerController : MonoBehaviour
             PlytaMinigameTrigger.SetActive(false);
             Debug.Log("Minigame trigger zone turned off");
             PlytaCanvas.SetActive(false);
-            Background.SetActive(false);
-            Area.SetActive(false);
-            SafeZone.SetActive(false);
-            Pointer.SetActive(false);
-            PointA.SetActive(false);
-            PointB.SetActive(false);
             Debug.Log("Minigame canvas turned off");
             IsPlytaDone = true;
+            playerMovementScript.enabled = true;
 
         }
         else
         {
-            Debug.Log("player plyta minigame failure");
+            Debug.Log("gratulacje zjebales plyta minigame");
         }
     }
 }

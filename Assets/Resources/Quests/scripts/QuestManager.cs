@@ -8,6 +8,7 @@ public class QuestManager : MonoBehaviour
     [SerializeField] private Sprite[] icons;
     [SerializeField] private GameObject questDialog;
     [SerializeField] PointerController PointerController;
+    [SerializeField] PlayerMovement playerMovementScript;
     private int doneQuests = 0;
 
     public int range = 3;
@@ -28,6 +29,8 @@ public class QuestManager : MonoBehaviour
     public GameObject swiatlo2;
     public GameObject swiatlo3;
     public GameObject swiatlo4;
+
+    public GameObject EndScreenArt;
     
 
     private string TataQuest = "Assets/Resources/Quests/Quest_Tata.xml";
@@ -73,53 +76,68 @@ public class QuestManager : MonoBehaviour
             {
                 if (Vector3.Distance(myPosition.transform.position, npcPosition.transform.position) < range)
                 {//ojciec
-                    if (doneQuests == 3)
-                        StartQuest(TataQuestPo); // Je�li sko�czony, �aduj plik "Po"
+                    if (doneQuests >= 3 && śmieci5.activeSelf && PointerController.IsPlytaDone == true && swiatlo1.activeSelf && swiatlo2.activeSelf && swiatlo3.activeSelf && swiatlo4.activeSelf)
+                    {
+                        StartQuest(TataQuestPo); // Jesli skonczony, laduj plik "Po"
+                        EndScreenArt.SetActive(true);
+                        //tutaj koniec gry
+                    }
                     else
+                    {
                         StartQuest(TataQuest);
+                    }
                 }
                 else if (Vector3.Distance(myPosition.transform.position, StarszaPani.transform.position) < range)
                 {//babunia
                 //po
-                    if (śmieci1.activeSelf & śmieci2.activeSelf & śmieci3.activeSelf & śmieci4.activeSelf & śmieci5.activeSelf)
-                        {
+                    if (śmieci1.activeSelf && śmieci2.activeSelf && śmieci3.activeSelf && śmieci4.activeSelf && śmieci5.activeSelf)
+                    {
                         StartQuest(BabciaQuestPo);
-                        doneQuests++;
-                        }
+                    }
                     else //przed
+                    {
                         StartQuest(BabciaQuest);
+                    }
                 }
                 else if (Vector3.Distance(myPosition.transform.position, Dzieciok.transform.position) < range)
                 {//quest dziecioka
                 //po
                     if (PointerController.IsPlytaDone == true)
-                        {
+                    {
                         StartQuest(DzieciokQuestPo);
-                        doneQuests++;
-                        }
+                    }
                     else //przed
+                    {
                         StartQuest(DzieciokQuest);
+                    }
                 }
                 else if (Vector3.Distance(myPosition.transform.position, Jerzy.transform.position) < range)
                 {//quest Jerzego
                 //po
-                    if (swiatlo1.activeSelf & swiatlo2.activeSelf & swiatlo3.activeSelf & swiatlo4.activeSelf)
-                        {
+                    if (swiatlo1.activeSelf && swiatlo2.activeSelf && swiatlo3.activeSelf && swiatlo4.activeSelf)
+                    {
                         StartQuest(JerzyQuestPo);
-                        doneQuests++;
-                        }
+                    }
                     else //przed
+                    {
                         StartQuest(JerzyQuest);
+                    }
                 }
             }
         }
     }
 
+    async void FadeTransition()
+    {
+        await ScreenFader.Instance.FadeToBlack();
+    }
+
     public void StartQuest(string questFilePath)
     {
+        playerMovementScript.enabled = false;
         questDialog.SetActive(true);
         questDialog.GetComponent<QuestDisplayComponent>()
-            .Initialize(Quest.LoadQuest(questFilePath));
+        .Initialize(Quest.LoadQuest(questFilePath));
     }
 
     public void KoniecDialogu(string sciezkaPliku)
@@ -127,8 +145,10 @@ public class QuestManager : MonoBehaviour
         if (!ukonczoneQuesty.Contains(sciezkaPliku))
         {
             ukonczoneQuesty.Add(sciezkaPliku);
+            doneQuests++;
         }
         questDialog.SetActive(false);
+        playerMovementScript.enabled = true;
     }
 
     public Sprite GetIcon(string iconName)

@@ -11,5 +11,10 @@
 			<NodeText>Wysiadły mi bezpieczniki w 104. Próbowałem naprawić je sam ale wzrok już nie ten...</NodeText>
 			<NodeImage>Jerzy</NodeImage>
 		</Node>
+		<Node>
+			<NodeTitle>Pan Jerzy</NodeTitle>
+			<NodeText>Chyba zostawiłem latarkę u Jadzi, pomoże ci.</NodeText>
+			<NodeImage>Jerzy</NodeImage>
+		</Node>
 	</Nodes>
 </Quest>

@@ -963,7 +963,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Retrocwel
+  m_text: Kazik
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e985526e18e027144b8447c59b824305, type: 2}
   m_sharedMaterial: {fileID: 9026316549192412210, guid: e985526e18e027144b8447c59b824305, type: 2}
@@ -1422,6 +1422,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417205783}
   m_CullTransparentMesh: 1
+--- !u!114 &1825455185 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1064485229323461153, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+  m_PrefabInstance: {fileID: 4446527624575843488}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174f353f40bfa9b45983154303c2f910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1864336541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,6 +1807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 289becbd12043c14c9eca7ef667d7229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  _sceneController: {fileID: 1825455185}
 --- !u!4 &1972380636
 Transform:
   m_ObjectHideFlags: 0
@@ -1858,6 +1870,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d779887ce4dd01042b8a667071c712b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeScenes
+--- !u!1001 &4446527624575843488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3251188870947816592, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_Name
+      value: SceneController
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 863.45276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2032.3298
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081814397225164984, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af4a4918fdce5b549b4ad4fdc7407a13, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1866,3 +1935,4 @@ SceneRoots:
   - {fileID: 687613711}
   - {fileID: 1036121115}
   - {fileID: 1927349507}
+  - {fileID: 4446527624575843488}

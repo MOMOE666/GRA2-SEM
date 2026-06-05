@@ -5,14 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField] private SceneController _sceneController;
+
+
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);// this can load the scene number 1 (game)//SceneManager.GetActiveScene().buildIndex +1
-
+        _sceneController.LoadScene("Main");// this can load the scene number 1 (game)//SceneManager.GetActiveScene().buildIndex +1
+        //SceneManager.GetActiveScene().buildIndex + 1
     }
     public void QuitGame()
     {
-
         Application.Quit();
     }
 }

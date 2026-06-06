@@ -42,7 +42,7 @@ public class PointerController : MonoBehaviour
         }
  
         // Check for input
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             CheckSuccess();
         }

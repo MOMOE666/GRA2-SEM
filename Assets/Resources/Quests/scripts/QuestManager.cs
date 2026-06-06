@@ -9,7 +9,9 @@ public class QuestManager : MonoBehaviour
     [SerializeField] private GameObject questDialog;
     [SerializeField] PointerController PointerController;
     [SerializeField] PlayerMovement playerMovementScript;
+    [SerializeField] private SceneController _sceneController;
     private int doneQuests = 0;
+    private bool KoniecGry = false;
 
     public int range = 3;
     public GameObject npcPosition;
@@ -78,9 +80,17 @@ public class QuestManager : MonoBehaviour
                 {//ojciec
                     if (doneQuests >= 3 && śmieci5.activeSelf && PointerController.IsPlytaDone == true && swiatlo1.activeSelf && swiatlo2.activeSelf && swiatlo3.activeSelf && swiatlo4.activeSelf)
                     {
+                        if (KoniecGry == true)
+                        {
+                            _sceneController.LoadScene("MainMenu");
+                        }
+                        else
+                        {
                         StartQuest(TataQuestPo); // Jesli skonczony, laduj plik "Po"
                         EndScreenArt.SetActive(true);
                         //tutaj koniec gry
+                        KoniecGry = true;
+                        }
                     }
                     else
                     {

@@ -9,7 +9,7 @@ public class OnTriggerEnterPlyta : MonoBehaviour
 
     private void Update()
     {
-        if (playerInTrigger && Input.GetKeyDown(KeyCode.F))
+        if (playerInTrigger && Input.GetKeyDown(KeyCode.L))
         {
             PlytaMinigameCanvas.SetActive(true);
             Debug.Log("set plyta canvas to true");

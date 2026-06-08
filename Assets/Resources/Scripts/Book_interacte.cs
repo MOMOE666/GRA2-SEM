@@ -6,8 +6,12 @@ public class Book_interacte : MonoBehaviour, IInteractable
     public QuestManager questManager;
     public int requiredAmount = 5;
 
+    [SerializeField] public AudioSource source;
+    [SerializeField] public AudioClip clip;
+
     public void Interact()
     {
+        source.PlayOneShot(clip);
         string nameForInventory = gameObject.name.Split(' ')[0].ToLower().Trim();
 
         inventoryManager.AddItem(nameForInventory);
@@ -26,6 +30,9 @@ public class Book_interacte : MonoBehaviour, IInteractable
             }
         }
 
-        Destroy(gameObject);
+        GetComponent<Collider>().enabled = false;
+        GetComponent<MeshRenderer>().enabled = false;
+
+        Destroy(gameObject, clip.length); //działa hoorayyyy
     }
 }

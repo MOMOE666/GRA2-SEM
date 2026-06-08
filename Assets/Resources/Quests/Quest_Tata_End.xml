@@ -2,7 +2,7 @@
 	<QuestTitle>Quest Tata</QuestTitle>
 	<Nodes>
 		<Node>
-			<NodeTitle>Syn</NodeTitle>
+			<NodeTitle>Tadek</NodeTitle>
 			<NodeText>Wszystkim już pomogłem.</NodeText>
 			<NodeImage>Syn</NodeImage>
 		</Node>
@@ -12,19 +12,39 @@
 			<NodeImage>Tata</NodeImage>
 		</Node>
 		<Node>
-			<NodeTitle>Syn</NodeTitle>
+			<NodeTitle>Tadek</NodeTitle>
 			<NodeText>Wiem, wiem…</NodeText>
 			<NodeImage>Syn</NodeImage>
 		</Node>
 		<Node>
+			<NodeTitle>Tadek</NodeTitle>
+			<NodeText>Dobrze się czujesz?</NodeText>
+			<NodeImage>Syn</NodeImage>
+		</Node>
+		<Node>
 			<NodeTitle>Tata</NodeTitle>
-			<NodeText>Późno już. Dobranoc Tadziu, kocham cię.</NodeText>
+			<NodeText>Oczywiście... Dobranoc, Tadziu...</NodeText>
 			<NodeImage>Tata</NodeImage>
 		</Node>
 		<Node>
-			<NodeTitle>Syn</NodeTitle>
-			<NodeText>Dobranoc, tato.</NodeText>
+			<NodeTitle>Tadek</NodeTitle>
+			<NodeText>Pamiętaj, że jutro przyjdzie lekarz...</NodeText>
 			<NodeImage>Syn</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>...</NodeText>
+			<NodeImage>Tata</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tadek</NodeTitle>
+			<NodeText>...dobranoc, tato.</NodeText>
+			<NodeImage>Syn</NodeImage>
+		</Node>
+		<Node>
+			<NodeTitle>Tata</NodeTitle>
+			<NodeText>...</NodeText>
+			<NodeImage>Tata</NodeImage>
 		</Node>
 	</Nodes>
 </Quest>

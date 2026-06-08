@@ -5,6 +5,8 @@ public class ShowInstrukcje : MonoBehaviour
     [SerializeField] public GameObject pickUpText;
     [SerializeField] public GameObject Instrukcje;
     [SerializeField] PlayerMovement playerMovementScript;
+    [SerializeField] public AudioSource source;
+    [SerializeField] public AudioClip clip;
     private bool playerInInstrukcje = false;
 
     private void OnTriggerEnter(Collider other)
@@ -32,6 +34,7 @@ public class ShowInstrukcje : MonoBehaviour
         {
             if (Instrukcje.activeSelf)
             {
+            source.PlayOneShot(clip);
             Instrukcje.SetActive(false);
             pickUpText.SetActive(true);
             playerMovementScript.enabled = true;

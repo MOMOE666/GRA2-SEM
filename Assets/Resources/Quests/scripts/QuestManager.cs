@@ -35,17 +35,17 @@ public class QuestManager : MonoBehaviour
     public GameObject EndScreenArt;
     
 
-    private string TataQuest = "Assets/Resources/Quests/Quest_Tata.xml";
-    private string TataQuestPo = "Assets/Resources/Quests/Quest_Tata_End.xml";
+    private string TataQuest = "Quests/Quest_Tata";
+    private string TataQuestPo = "Quests/Quest_Tata_End";
 
-    private string BabciaQuest = "Assets/Resources/Quests/Quest_Babcia.xml";
-    private string BabciaQuestPo = "Assets/Resources/Quests/Quest_Babcia_End.xml";
+    private string BabciaQuest = "Quests/Quest_Babcia";
+    private string BabciaQuestPo = "Quests/Quest_Babcia_End";
 
-    private string DzieciokQuest = "Assets/Resources/Quests/Quest_Dzieciok.xml";
-    private string DzieciokQuestPo = "Assets/Resources/Quests/Quest_Dzieciok_End.xml";
+    private string DzieciokQuest = "Quests/Quest_Dzieciok";
+    private string DzieciokQuestPo = "Quests/Quest_Dzieciok_End";
 
-    private string JerzyQuest = "Assets/Resources/Quests/Quest_Jerzy.xml";
-    private string JerzyQuestPo = "Assets/Resources/Quests/Quest_Jerzy_End.xml";
+    private string JerzyQuest = "Quests/Quest_Jerzy";
+    private string JerzyQuestPo = "Quests/Quest_Jerzy_End";
 
 
 

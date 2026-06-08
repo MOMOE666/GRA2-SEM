@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.IO;
+using UnityEngine;
+using System;
 
 public class Quest
 {
@@ -30,14 +32,23 @@ public class Quest
         return Nodes != null && position < Nodes.Count;
     }
 
-    public static Quest LoadQuest(string fileName)
+    public static Quest LoadQuest(string resourcePath)
     {
-        var serializer = new XmlSerializer(typeof(Quest));
-        var stream = new FileStream(fileName, FileMode.Open);
-        var quest = serializer.Deserialize(stream) as Quest;
-        stream.Close();
+        TextAsset xmlFile = Resources.Load<TextAsset>(resourcePath);
 
-        quest.FilePath = fileName;
-        return quest;
+        if (xmlFile == null)
+        {
+            Debug.Log("Quest XML nie znaleziony zjebie: " + resourcePath);
+            return null;
+        }
+
+        var serializer = new XmlSerializer(typeof(Quest));
+
+        using (StringReader reader = new StringReader(xmlFile.text))
+        {
+            Quest quest = serializer.Deserialize(reader) as Quest;
+            quest.FilePath = resourcePath;
+            return quest;
+        }
     }
 } 

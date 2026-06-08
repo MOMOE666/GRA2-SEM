@@ -19,7 +19,7 @@ public class QuestDisplayComponent : MonoBehaviour
         Quest = quest;
         ProgressNode();
     }
-
+    
     public void ProgressNode()
     {
         currentNode = Quest.ProgressQuest();
